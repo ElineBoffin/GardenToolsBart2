@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="../assets/icons/grasmaaier.png">
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"> <!--Bootstrap-->
+    <link rel="stylesheet" type="text/css" href="../css/artCard.css">
+    <link rel="stylesheet" type="text/css" href="../css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="../css/details.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>DetailsPagina</title>
+</head>
+<body>
+    <!--Start nav-->
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">GardenToolsBart</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../html/home.html">Home</a>
+              </li>  
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Maaiers</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../html/grasmaaiers.html">Grasmaaiers</a></li>
+                  <li><a class="dropdown-item" href="../html/zitmaaiers.html">Zitmaaiers</a></li>
+                  <li><a class="dropdown-item" href="../html/robotmaaiers.html">Robotmaaiers</a></li>
+                  <li><a class="dropdown-item" href="../html/bosmaaiers.html">Bosmaaiers</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../html/service.html">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../html/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--End nav-->
+
+    <h1 id="zitmaaier-naam"></h1>
+    <div id="zitmaaier-details">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img id="zitmaaier-image" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <p id="zitmaaier-content"></p>
+              </div>
+            </div>
+          </div>
+        
+          <table id="customers">
+            <tr>
+              <td colspan="4" id="article-content"></td>
+            </tr>
+            <tr><td colspan="4" style="border: none;"></td></tr>
+            <tr><td colspan="4" style="border: none;"></td></tr>
+            <tr>
+            <tr >
+                <th class="specs" colspan="5">
+                    <h4>Product specificaties</h4>
+                </th>
+            </tr>
+            <tr class="tblSection">
+                <th class="tblTitle">Merk</th>
+                <td class="tblContent" colspan="2"><p id="zitmaaier-brand"></p></td>
+                <th class="tblTitle">Prijs</th>
+                <td><p id="zitmaaier-price"></p></td>
+            </tr>
+
+            <tr class="tblSection">
+              <th>Motor</th>
+              <td colspan="2"><p id="zitmaaier-motor"></p></td>
+              <th>Maaidek</th>
+              <td><p id="zitmaaier-maaidek"></p></td>
+            </tr>
+            <tr class="tblSection">
+              <th>Maaimotoren</th>
+              <td colspan="2"><p id="zitmaaier-maaimotoren"></p></td>
+              <th>Batterij capaciteit</th>
+              <td><p id="zitmaaier-batterij"></p></td>
+            </tr>
+            <tr class="tblSection">
+              <th>Messnelheid</th>
+              <td colspan="2"><p id="zitmaaier-messnelheid"></p></td>
+              <th>Aantal messen</th>
+              <td><p id="zitmaaier-aantalM"></p></td>
+            </tr>
+            <tr class="tblSection">
+              <th>Maaihoogte</th>
+              <td colspan="2"><p id="zitmaaier-hoogte"></p></td>
+              <th>Maaihoogteregeling</th>
+              <td><p id="zitmaaier-hoogteRegeling"></p></td>
+            </tr>
+            <tr class="tblSection">
+              <th>Maaisysteem</th>
+              <td colspan="2"><p id="zitmaaier-maaisysteem"></p></td>
+              <th>Led verlichting</th>
+              <td><p id="zitmaaier-led"></p></td>
+            </tr>
+            <tr class="tblSection">
+              <th>Zitting</th>
+              <td colspan="2"><p id="zitmaaier-zitting"></p></td>
+              <th>Parkeerrem</th>
+              <td><p id="zitmaaier-parkeerrem"></p></td>
+            </tr>
+            <tr class="tblSection">
+              <th>Kantelbeveiliging</th>
+              <td colspan="2"><p id="zitmaaier-beveiliging"></p></td>
+              <th>Snelheid vooruit</th>
+              <td><p id="zitmaaier-snelhV"></p></td>
+            </tr>
+            <tr class="tblSection">
+              <th>Sneilheid achteruit</th>
+              <td colspan="2"><p id="zitmaaier-snelhA"></p></td>
+              <th>Maximale oppervlakte</th>
+              <td><p id="zitmaaier-maxOpp"></p></td>
+            </tr>
+            <tr class="tblSection">
+              <th>Laadtijd</th>
+              <td colspan="2"><p id="zitmaaier-laadtijd"></p></td>
+              <th>Wielgrootte</th>
+              <td><p id="zitmaaier-wiel"></p></td>
+            </tr>
+            <tr class="tblSection">
+              <th>Gewicht</th>
+              <td colspan="2"><p id="zitmaaier-gewicht"></p></td>
+              <th>IP-classificatie</th>
+              <td><p id="zitmaaier-ip"></p></td>
+            </tr>
+            <!--<tr class="remarks">
+                <td rowspan="2" colspan="5">
+                    Opmerking: Lader en laadstation <strong>Niet meegeleverd</strong>, apart verkrijgbaar
+                </td>
+            </tr>-->
+        </table>
+    </div>
+</body>
+<script src="../js/zitmaaier.js"></script>
+</html>

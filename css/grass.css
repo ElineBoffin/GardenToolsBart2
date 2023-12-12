@@ -1,0 +1,16 @@
+@import "compass/css3";
+
+body {
+    margin: 0;
+    /*overflow: hidden;*/
+}
+
+canvas {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background-color: #D2DBDD;
+    z-index: -2;
+}

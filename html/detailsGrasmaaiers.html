@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="../assets/icons/grasmaaier.png">
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"> <!--Bootstrap-->
+    <link rel="stylesheet" type="text/css" href="../css/artCard.css">
+    <link rel="stylesheet" type="text/css" href="../css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="../css/details.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>DetailsPagina</title>
+</head>
+<body>
+    <!--Start nav-->
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">GardenToolsBart</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../html/home.html">Home</a>
+              </li>  
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Maaiers</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../html/grasmaaiers.html">Grasmaaiers</a></li>
+                  <li><a class="dropdown-item" href="../html/zitmaaiers.html">Zitmaaiers</a></li>
+                  <li><a class="dropdown-item" href="../html/robotmaaiers.html">Robotmaaiers</a></li>
+                  <li><a class="dropdown-item" href="../html/bosmaaiers.html">Bosmaaiers</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../html/service.html">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../html/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--End nav-->
+
+    <h1 id="article-naam"></h1>
+    <div id="article-details">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img id="article-image" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <!--<p id="article-content"></p>-->
+              </div>
+            </div>
+          </div>
+          <table id="customers">
+            <tr>
+              <td colspan="4" id="article-content"></td>
+            </tr>
+            <tr><td colspan="4" style="border: none;"></td></tr>
+            <tr><td colspan="4" style="border: none;"></td></tr>
+            <tr>
+                <th class="specs" colspan="4">Product specificaties</th>
+                <!--<td colspan="5" class="bgColor">
+                    <h4>Product specificaties</h4>
+                </td>-->
+            </tr>
+            <tr class="tblSection">
+                <th class="tblTitle">Merk</th>
+                <td class="tblContent"><p id="article-brand"></p></td>
+                <th class="tblTitle">Gewicht</th>
+                <td class="test"><p id="article-gewicht"></p></td>
+            </tr>
+    
+            <tr class="tblSection">
+                <th>Prijs</th>
+                <td><p id="article-price"></p></td>
+                <th>Opvang</th>
+                <td><p id="article-opvang"></p></td>
+            </tr>
+            <tr class="tblSection">
+                <th>Motor</th>
+                <td><p id="article-motor"></p></td>
+                <th>Aandrijving</th>
+                <td><p id="article-aandr"></p></td>
+            </tr>
+            <tr class="tblSection">
+                <th>Voltage</th>
+                <td><p id="article-volt"></p></td>
+                <th>Boost</th>
+                <td><p id="article-boost"></p></td>
+            </tr>
+            <tr class="tblSection">
+                <th>Maaibreedte</th>
+                <td><p id="article-breedte"></p></td>
+                <th>Mulching</th>
+                <td><p id="article-mulch"></p></td>
+            </tr>
+            <tr class="tblSection">
+                <th>Maaihoogte</th>
+                <td><p id="article-hoogte"></p></td>
+                <th id="myElement">Duwboom</th>
+                <td id="myElement"><p id="article-duwboom"></p></td>
+            </tr>
+            <tr class="tblSection">
+                <th>Maaihoogte instellen</th>
+                <td><p id="article-inst"></p></td>
+                <th id="myElement2">Rijsnelheid</th>
+                <td id="myElement2"><p id="article-rijsnelh"></p></td>
+            </tr>
+
+            <tr class="remarks">
+                <th id="opm" rowspan="2" colspan="5">
+                    <!--Opmerking: Lader en laadstation <strong>Niet meegeleverd</strong>, apart verkrijgbaar-->
+                    <!--<p>
+                        <button>Laders</button>
+                        <button>Laadstations</button>
+                    </p>-->
+                </th>
+            </tr>
+        </table>
+    </div>
+<script src="../js/articles.js"></script>
+</body>
+</html>

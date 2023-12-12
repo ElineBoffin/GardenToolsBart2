@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="../assets/icons/grasmaaier.png">
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"> <!--Bootstrap-->
+    <link rel="stylesheet" type="text/css" href="../css/artCard.css">
+    <link rel="stylesheet" type="text/css" href="../css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="../css/details.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<style>
+    #customers {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 70%;
+        float: right;
+    }
+
+    #customers td,
+    #customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        width: 25%;
+    }
+
+    #customers tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    #customers tr:hover {
+        background-color: #ddd;
+    }
+
+    #customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04AA6D;
+        color: white;
+    }
+</style>
+
+<body>
+    <h1 id="article-naam"></h1>
+    <div id="article-details">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img id="article-image" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <p id="article-content"></p>
+              </div>
+            </div>
+          </div>
+        
+          <table id="customers">
+            <tr>
+                <th colspan="4">Product specificaties</th>
+                <!--<td colspan="5" class="bgColor">
+                    <h4>Product specificaties</h4>
+                </td>-->
+            </tr>
+            <tr>
+                <td>Merk</td>
+                <td><p id="article-brand"></p></td>
+                <td>Gewicht</td>
+                <td><p id="article-gewicht"></p></td>
+            </tr>
+    
+            <tr>
+                <td>Prijs</td>
+                <td><p id="article-price"></p></td>
+                <td>Opvang</td>
+                <td><p id="article-opvang"></p></td>
+            </tr>
+            <tr>
+                <td>Motor</td>
+                <td><p id="article-motor"></p></td>
+                <td>Aandrijving</td>
+                <td><p id="article-aandr"></p></td>
+            </tr>
+            <tr>
+                <td>Voltage</td>
+                <td><p id="article-volt"></p></td>
+                <td>Boost</td>
+                <td><p id="article-boost"></p></td>
+            </tr>
+            <tr>
+                <td>Maaibreedte</td>
+                <td><p id="article-breedte"></p></td>
+                <td>Mulching</td>
+                <td><p id="article-mulch"></p></td>
+            </tr>
+            <tr>
+                <td>Maaihoogte</td>
+                <td><p id="article-hoogte"></p></td>
+                <td id="myElement">Duwboom</td>
+                <td id="myElement"><p id="article-duwboom"></p></td>
+            </tr>
+            <tr>
+                <td>Maaihoogte instellen</td>
+                <td><p id="article-inst"></p></td>
+                <td id="myElement">Rijsnelheid</td>
+                <td id="myElement"><p id="article-rijsnelh"></p></td>
+            </tr>
+            <tr class="remarks">
+                <th rowspan="2" colspan="5">
+                    Opmerking: Lader en laadstation <strong>Niet meegeleverd</strong>, apart verkrijgbaar
+                    <!--<p>
+                        <button>Laders</button>
+                        <button>Laadstations</button>
+                    </p>-->
+                </th>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+<script src="../js/articles.js"></script>
+</html>
