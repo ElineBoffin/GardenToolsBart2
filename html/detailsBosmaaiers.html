@@ -57,69 +57,72 @@
       </nav>
     <!--End nav-->
 
-    <h1 id="bosmaaier-naam"></h1>
-    <div id="bosmaaier-details">
-        <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img id="bosmaaier-image" alt="Avatar" style="width:300px;height:300px;">
-              </div>
-              <div class="flip-card-back">
-                <p id="bosmaaier-content"></p>
-              </div>
-            </div>
-          </div>
+    <div class="wrapper">
+      <div class="container">
+        <!--<img id="article-image" data-enlargable alt="" class="profile-img">-->
+
+        <div class='image-container'>
+          <img id="bosmaaier-image" data-enlargable class="profile-img">
+        </div>
         
-          <table id="content">
-            <tr >
-                <td colspan="5" class="bgColor">
-                    <h4>Product specificaties</h4>
-                </td>
-            </tr>
-            <tr>
-                <th>Merk</th>
-                <td><p id="bosmaaier-brand"></p></td>
-                <th>Prijs</th>
-                <td><p id="bosmaaier-price"></p></td>
-            </tr>
-
-            <tr>
-                <th>Vermogen</th>
-                <td><p id="bosmaaier-vermogen"></p></td>
-                <th>Voltage</th>
-                <td><p id="bosmaaier-volt"></p></td>
-            </tr>
-
-            <tr>
-                <th>Maaibreedte</th>
-                <td><p id="bosmaaier-breedte"></p></td>
-                <th>Gewicht</th>
-                <td><p id="bosmaaier-gewicht"></p></td>
-            </tr>
-
-            <tr>
-                <th>Snelheid</th>
-                <td><p id="bosmaaier-snelheid"></p></td>
-                <th>Afmetingen mes</th>
-                <td><p id="bosmaaier-mes"></p></td>
-            </tr>
-
-            <tr>
-                <th>Motor</th>
-                <td><p id="bosmaaier-motor"></p></td>
-            </tr>
+        <div class="content">
+          <div class="sub-content">
+            <h1 id="bosmaaier-naam"></h1>
             
-            <tr class="remarks">
-                <td rowspan="2" colspan="5">
-                    Opmerking: Lader en laadstation <strong>Niet meegeleverd</strong>, apart verkrijgbaar
-                    <!--<p>
-                        <button>Laders</button>
-                        <button>Laadstations</button>
-                    </p>-->
-                </td>
-            </tr>
-        </table>
+          </div>
+          <div class="data">
+            <table id="customers">
+              <tr>
+                <td colspan="4" id="bosmaaier-content"></td>
+              </tr>
+              <tr style="background-color: white;"><td colspan="4" style="border: none;"></td></tr>
+              <tr style="background-color: white;"><td colspan="4" style="border: none;"></td></tr>
+              <tr>
+                  <th class="specs" colspan="4">Product specificaties</th>
+                  <!--<td colspan="5" class="bgColor">
+                      <h4>Product specificaties</h4>
+                  </td>-->
+              </tr>
+              <tr class="tblSection">
+                  <th class="tblTitle">Merk</th>
+                  <td class="tblContent"><p id="bosmaaier-brand"></p></td>
+                  <th class="tblTitle">Gewicht</th>
+                  <td class="test"><p id="bosmaaier-gewicht"></p></td>
+              </tr>
+      
+              <tr class="tblSection">
+                  <th>Prijs</th>
+                  <td><p id="bosmaaier-price"></p></td>
+                  <th>vermogen</th>
+                  <td><p id="bosmaaier-vermogen"></p></td>
+              </tr>
+              <tr class="tblSection">
+                  <th>Volt</th>
+                  <td><p id="bosmaaier-volt"></p></td>
+                  <th>Breedte</th>
+                  <td><p id="bosmaaier-breedte"></p></td>
+              </tr>
+              <tr class="tblSection">
+                  <th>Snelheid</th>
+                  <td><p id="bosmaaier-snelheid"></p></td>
+                  <th></th>
+                  <td><p></p></td>
+              </tr>
+              <tr class="remarks">
+                  <th id="opm" rowspan="2" colspan="5">
+                      <!--Opmerking: Lader en laadstation <strong>Niet meegeleverd</strong>, apart verkrijgbaar-->
+                      <!--<p>
+                          <button>Laders</button>
+                          <button>Laadstations</button>
+                      </p>-->
+                  </th>
+              </tr>
+          </table>
+          </div>
+        </div>
+      </div>
     </div>
 </body>
 <script src="../js/bosmaaier.js"></script>
+<script src="../js/FullScreen.js"></script>
 </html>

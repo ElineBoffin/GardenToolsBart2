@@ -60,73 +60,86 @@
       </nav>
     <!--End nav-->
 
-    <h1 id="robot-naam"></h1>
-    <div id="robot-details">
-        <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img id="robot-image" alt="Avatar" style="width:300px;height:300px;">
-              </div>
-              <div class="flip-card-back">
-                <p id="robot-content"></p>
-              </div>
-            </div>
-          </div>
-        
-          <table id="content">
-            <tr >
-                <td colspan="5" class="bgColor">
-                    <h4>Product specificaties</h4>
-                </td>
-            </tr>
-            <tr>
-                <th>Merk</th>
-                <td><p id="robot-brand"></p></td>
-                <th>Maaibreedte</th>
-                <td><p id="robot-breedte"></p></td>
-            </tr>
+    <div class="wrapper">
+      <div class="container">
+        <!--<img id="article-image" data-enlargable alt="" class="profile-img">-->
 
-            <tr>
-                <th>Prijs</th>
-                <td><p id="robot-price"></p></td>
-                <th>Maaihoogte</th>
-                <td><p id="robot-hoogte"></p></td>
-            </tr>
-            <tr>
-                <th>Motor</th>
-                <td><p id="robot-motor"></p></td>
-                <th>Geluidsniveau</th>
-                <td><p id="robot-geluid"></p></td>
-            </tr>
-            <tr>
-                <th>Max. helling</th>
-                <td><p id="robot-helling"></p></td>
-                <th>Oppervlaktes tot</th>
-                <td><p id="robot-oppTot"></p></td>
-            </tr>
-            <tr>
-                <th>Connectiviteit op afstand</th>
-                <td><p id="robot-bl"></p></td>
-                <th>Werktijd</th>
-                <td><p id="robot-werk"></p></td>
-            </tr>
-            <tr>
-                <th>Laadtijd</th>
-                <td><p id="robot-laad"></p></td>
-                <th>gewicht</th>
-                <td><p id="robot-gewicht"></p></td>
-            </tr>
-            <tr class="remarks">
-                <td rowspan="2" colspan="5">
-                    Opmerking: Lader en laadstation <strong>Niet meegeleverd</strong>, apart verkrijgbaar
-                    <!--<p>
-                        <button>Laders</button>
-                        <button>Laadstations</button>
-                    </p>-->
-                </td>
-            </tr>
-        </table>
+        <div class='image-container'>
+          <img id="robot-image" data-enlargable alt="" class="profile-img">
+        </div>
+        
+        <div class="content">
+          <div class="sub-content">
+            <h1 id="robot-naam"></h1>
+            
+          </div>
+          <div class="data">
+            <table id="customers">
+              <tr>
+                <td colspan="4" id="robot-content"></td>
+              </tr>
+              <tr style="background-color: white;"><td colspan="4" style="border: none;"></td></tr>
+              <tr style="background-color: white;"><td colspan="4" style="border: none;"></td></tr>
+              <tr>
+                  <th class="specs" colspan="4">Product specificaties</th>
+                  <!--<td colspan="5" class="bgColor">
+                      <h4>Product specificaties</h4>
+                  </td>-->
+              </tr>
+              <tr class="tblSection">
+                  <th class="tblTitle">Merk</th>
+                  <td class="tblContent"><p id="robot-brand"></p></td>
+                  <th class="tblTitle">Gewicht</th>
+                  <td class="test"><p id="robot-gewicht"></p></td>
+              </tr>
+      
+              <tr class="tblSection">
+                  <th>Prijs</th>
+                  <td><p id="robot-price"></p></td>
+                  <th>Motor</th>
+                  <td><p id="robot-motor"></p></td>
+              </tr>
+              <tr class="tblSection">
+                  <th>Breedte</th>
+                  <td><p id="robot-breedte"></p></td>
+                  <th>Hoogte</th>
+                  <td><p id="robot-hoogte"></p></td>
+              </tr>
+              <tr class="tblSection">
+                  <th>Geluid</th>
+                  <td><p id="robot-geluid"></p></td>
+                  <th>helling</th>
+                  <td><p id="robot-helling"></p></td>
+              </tr>
+              <tr class="tblSection">
+                  <th>Oppervlakte tot</th>
+                  <td><p id="robot-oppTot"></p></td>
+                  <th>bl</th>
+                  <td><p id="robot-bl"></p></td>
+              </tr>
+              <tr class="tblSection">
+                  <th>werk</th>
+                  <td><p id="robot-werk"></p></td>
+                  <th id="myElement">Laadtijd</th>
+                  <td id="myElement"><p id="robot-laad"></p></td>
+              </tr>
+  
+              <tr class="remarks">
+                  <th id="opm" rowspan="2" colspan="5">
+                      <!--Opmerking: Lader en laadstation <strong>Niet meegeleverd</strong>, apart verkrijgbaar-->
+                      <!--<p>
+                          <button>Laders</button>
+                          <button>Laadstations</button>
+                      </p>-->
+                  </th>
+              </tr>
+          </table>
+          </div>
+        </div>
+      </div>
     </div>
+    
 <script src="../js/robot.js"></script>
+<script src="../js/FullScreen.js"></script>
 </body>
 </html>

@@ -57,105 +57,117 @@
       </nav>
     <!--End nav-->
 
-    <h1 id="zitmaaier-naam"></h1>
-    <div id="zitmaaier-details">
-        <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img id="zitmaaier-image" alt="Avatar" style="width:300px;height:300px;">
-              </div>
-              <div class="flip-card-back">
-                <p id="zitmaaier-content"></p>
-              </div>
-            </div>
-          </div>
-        
-          <table id="customers">
-            <tr>
-              <td colspan="4" id="article-content"></td>
-            </tr>
-            <tr><td colspan="4" style="border: none;"></td></tr>
-            <tr><td colspan="4" style="border: none;"></td></tr>
-            <tr>
-            <tr >
-                <th class="specs" colspan="5">
-                    <h4>Product specificaties</h4>
-                </th>
-            </tr>
-            <tr class="tblSection">
-                <th class="tblTitle">Merk</th>
-                <td class="tblContent" colspan="2"><p id="zitmaaier-brand"></p></td>
-                <th class="tblTitle">Prijs</th>
-                <td><p id="zitmaaier-price"></p></td>
-            </tr>
+    <div class="wrapper">
+      <div class="container">
+        <!--<img id="article-image" data-enlargable alt="" class="profile-img">-->
 
-            <tr class="tblSection">
-              <th>Motor</th>
-              <td colspan="2"><p id="zitmaaier-motor"></p></td>
-              <th>Maaidek</th>
-              <td><p id="zitmaaier-maaidek"></p></td>
-            </tr>
-            <tr class="tblSection">
-              <th>Maaimotoren</th>
-              <td colspan="2"><p id="zitmaaier-maaimotoren"></p></td>
-              <th>Batterij capaciteit</th>
-              <td><p id="zitmaaier-batterij"></p></td>
-            </tr>
-            <tr class="tblSection">
-              <th>Messnelheid</th>
-              <td colspan="2"><p id="zitmaaier-messnelheid"></p></td>
-              <th>Aantal messen</th>
-              <td><p id="zitmaaier-aantalM"></p></td>
-            </tr>
-            <tr class="tblSection">
-              <th>Maaihoogte</th>
-              <td colspan="2"><p id="zitmaaier-hoogte"></p></td>
-              <th>Maaihoogteregeling</th>
-              <td><p id="zitmaaier-hoogteRegeling"></p></td>
-            </tr>
-            <tr class="tblSection">
-              <th>Maaisysteem</th>
-              <td colspan="2"><p id="zitmaaier-maaisysteem"></p></td>
-              <th>Led verlichting</th>
-              <td><p id="zitmaaier-led"></p></td>
-            </tr>
-            <tr class="tblSection">
-              <th>Zitting</th>
-              <td colspan="2"><p id="zitmaaier-zitting"></p></td>
-              <th>Parkeerrem</th>
-              <td><p id="zitmaaier-parkeerrem"></p></td>
-            </tr>
-            <tr class="tblSection">
-              <th>Kantelbeveiliging</th>
-              <td colspan="2"><p id="zitmaaier-beveiliging"></p></td>
-              <th>Snelheid vooruit</th>
-              <td><p id="zitmaaier-snelhV"></p></td>
-            </tr>
-            <tr class="tblSection">
-              <th>Sneilheid achteruit</th>
-              <td colspan="2"><p id="zitmaaier-snelhA"></p></td>
-              <th>Maximale oppervlakte</th>
-              <td><p id="zitmaaier-maxOpp"></p></td>
-            </tr>
-            <tr class="tblSection">
-              <th>Laadtijd</th>
-              <td colspan="2"><p id="zitmaaier-laadtijd"></p></td>
-              <th>Wielgrootte</th>
-              <td><p id="zitmaaier-wiel"></p></td>
-            </tr>
-            <tr class="tblSection">
-              <th>Gewicht</th>
-              <td colspan="2"><p id="zitmaaier-gewicht"></p></td>
-              <th>IP-classificatie</th>
-              <td><p id="zitmaaier-ip"></p></td>
-            </tr>
-            <!--<tr class="remarks">
-                <td rowspan="2" colspan="5">
-                    Opmerking: Lader en laadstation <strong>Niet meegeleverd</strong>, apart verkrijgbaar
-                </td>
-            </tr>-->
-        </table>
+        <div class='image-container'>
+          <img id="zitmaaier-image" data-enlargable alt="" class="profile-img">
+        </div>
+        
+        <div class="content">
+          <div class="sub-content">
+            <h1 id="zitmaaier-naam"></h1>
+            
+          </div>
+          <div class="data">
+            <table id="customers">
+              <tr>
+                <td colspan="4" id="zitmaaier-content"></td>
+              </tr>
+              <tr style="background-color: white;"><td colspan="4" style="border: none;"></td></tr>
+              <tr style="background-color: white;"><td colspan="4" style="border: none;"></td></tr>
+              <tr>
+                  <th class="specs" colspan="4">Product specificaties</th>
+                  <!--<td colspan="5" class="bgColor">
+                      <h4>Product specificaties</h4>
+                  </td>-->
+              </tr>
+              <tr class="tblSection">
+                  <th class="tblTitle">Merk</th>
+                  <td class="tblContent"><p id="zitmaaier-brand"></p></td>
+                  <th class="tblTitle">Gewicht</th>
+                  <td class="test"><p id="zitmaaier.gewicht"></p></td>
+              </tr>
+      
+              <tr class="tblSection">
+                  <th>Prijs</th>
+                  <td><p id="zitmaaier-price"></p></td>
+                  <th>motor</th>
+                  <td><p id="zitmaaier-motor"></p></td>
+              </tr>
+              <tr class="tblSection">
+                  <th>Maaidek</th>
+                  <td><p id="zitmaaier-maaidek"></p></td>
+                  <th>Maaimotoren</th>
+                  <td><p id="zitmaaier-maaimotoren"></p></td>
+              </tr>
+              <tr class="tblSection">
+                  <th>Batterij capaciteit</th>
+                  <td><p id="zitmaaier-batterij"></p></td>
+                  <th>Messnelheid</th>
+                  <td><p id="zitmaaier-messnelheid"></p></td>
+              </tr>
+              <tr class="tblSection">
+                  <th>Aantal messen</th>
+                  <td><p id="zitmaaier-aantalM"></p></td>
+                  <th>Maaihoogte</th>
+                  <td><p id="zitmaaier-hoogte"></p></td>
+              </tr>
+              <tr class="tblSection">
+                  <th>Maaihoogteregeling</th>
+                  <td><p id="zitmaaier-hoogteRegeling"></p></td>
+                  <th>Maaisysteem</th>
+                  <td><p id="zitmaaier-maaisysteem"></p></td>
+              </tr>
+              <tr class="tblSection">
+                  <th>LED verlichting</th>
+                  <td><p id="zitmaaier-led"></p></td>
+                  <th>Zitting</th>
+                  <td><p id="zitmaaier-zitting"></p></td>
+              </tr>
+              <tr class="tblSection">
+                <th>Parkeerrem</th>
+                <td><p id="zitmaaier-parkeerrem"></p></td>
+                <th>Kantelbeveiliging</th>
+                <td><p id="zitmaaier-beveiliging"></p></td>
+              </tr>
+              <tr class="tblSection">
+                <th>Snelheid vooruit</th>
+                <td><p id="zitmaaier-snelV"></p></td>
+                <th>Snelheid achteruit</th>
+                <td><p id="zitmaaier-snelA"></p></td>
+              </tr>
+              <tr class="tblSection">
+                <th>Maximale oppervlakte</th>
+                <td><p id="zitmaaier-maxOpp"></p></td>
+                <th>Laadtijd</th>
+                <td><p id="zitmaaier-laadtijd"></p></td>
+              </tr>
+              <tr class="tblSection">
+                <th>Wielgrootte</th>
+                <td><p id="zitmaaier-wiel"></p></td>
+                <th>IP-classificatie</th>
+                <td><p id="zitmaaier-ip"></p></td>
+              </tr>
+  
+              <tr class="remarks">
+                  <th id="opm" rowspan="2" colspan="5">
+                      <!--Opmerking: Lader en laadstation <strong>Niet meegeleverd</strong>, apart verkrijgbaar-->
+                      <!--<p>
+                          <button>Laders</button>
+                          <button>Laadstations</button>
+                      </p>-->
+                  </th>
+              </tr>
+          </table>
+          </div>
+        </div>
+      </div>
     </div>
+
+
 </body>
 <script src="../js/zitmaaier.js"></script>
+<script src="../js/FullScreen.js"></script>
 </html>

@@ -7,7 +7,7 @@
             '1': { 
                 naam: 'XCR82LT107',
                 brand: 'Cramer', 
-                content: 'lorem loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem',
+                content: 'lorem loremloremloremloremlremlorememloremloreemloremloremloremlemloremloremloremlemloremloremloremlmloremloremloremloremloremloremloremlolotrerlerkoefkefejfbjebfjjremloremlorem',
                 price: '\u20AC 5999.00',
                 motor: 'Borstelloos',
                 maaidek: 'Staal - 107 cm',
@@ -134,10 +134,10 @@
         }
     }
 
-    const myElement = document.getElementById('myElement');
+    /*const myElement = document.getElementById('myElement');
 
     if (myElement.textContent.trim() === '' || 'Duwboom' || 'Rijsnelheid') {
         myElement.style.display = 'none';
     } else {
         myElement.style.display = 'block';
-    }
+    }*/

@@ -56,85 +56,92 @@
       </nav>
     <!--End nav-->
 
-    <h1 id="article-naam"></h1>
-    <div id="article-details">
-        <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img id="article-image" alt="Avatar" style="width:300px;height:300px;">
-              </div>
-              <div class="flip-card-back">
-                <!--<p id="article-content"></p>-->
-              </div>
-            </div>
-          </div>
-          <table id="customers">
-            <tr>
-              <td colspan="4" id="article-content"></td>
-            </tr>
-            <tr><td colspan="4" style="border: none;"></td></tr>
-            <tr><td colspan="4" style="border: none;"></td></tr>
-            <tr>
-                <th class="specs" colspan="4">Product specificaties</th>
-                <!--<td colspan="5" class="bgColor">
-                    <h4>Product specificaties</h4>
-                </td>-->
-            </tr>
-            <tr class="tblSection">
-                <th class="tblTitle">Merk</th>
-                <td class="tblContent"><p id="article-brand"></p></td>
-                <th class="tblTitle">Gewicht</th>
-                <td class="test"><p id="article-gewicht"></p></td>
-            </tr>
-    
-            <tr class="tblSection">
-                <th>Prijs</th>
-                <td><p id="article-price"></p></td>
-                <th>Opvang</th>
-                <td><p id="article-opvang"></p></td>
-            </tr>
-            <tr class="tblSection">
-                <th>Motor</th>
-                <td><p id="article-motor"></p></td>
-                <th>Aandrijving</th>
-                <td><p id="article-aandr"></p></td>
-            </tr>
-            <tr class="tblSection">
-                <th>Voltage</th>
-                <td><p id="article-volt"></p></td>
-                <th>Boost</th>
-                <td><p id="article-boost"></p></td>
-            </tr>
-            <tr class="tblSection">
-                <th>Maaibreedte</th>
-                <td><p id="article-breedte"></p></td>
-                <th>Mulching</th>
-                <td><p id="article-mulch"></p></td>
-            </tr>
-            <tr class="tblSection">
-                <th>Maaihoogte</th>
-                <td><p id="article-hoogte"></p></td>
-                <th id="myElement">Duwboom</th>
-                <td id="myElement"><p id="article-duwboom"></p></td>
-            </tr>
-            <tr class="tblSection">
-                <th>Maaihoogte instellen</th>
-                <td><p id="article-inst"></p></td>
-                <th id="myElement2">Rijsnelheid</th>
-                <td id="myElement2"><p id="article-rijsnelh"></p></td>
-            </tr>
+    <div class="wrapper">
+      <div class="container">
+        <!--<img id="article-image" data-enlargable alt="" class="profile-img">-->
 
-            <tr class="remarks">
-                <th id="opm" rowspan="2" colspan="5">
-                    <!--Opmerking: Lader en laadstation <strong>Niet meegeleverd</strong>, apart verkrijgbaar-->
-                    <!--<p>
-                        <button>Laders</button>
-                        <button>Laadstations</button>
-                    </p>-->
-                </th>
-            </tr>
-        </table>
+        <div class='image-container'>
+          <img id="article-image" data-enlargable alt="" class="profile-img">
+        </div>
+        
+        <div class="content">
+          <div class="sub-content">
+            <h1 id="article-naam"></h1>
+            
+          </div>
+          <div class="data">
+            <table id="customers">
+              <tr>
+                <td colspan="4" id="article-content"></td>
+              </tr>
+              <tr style="background-color: white;"><td colspan="4" style="border: none;"></td></tr>
+              <tr style="background-color: white;"><td colspan="4" style="border: none;"></td></tr>
+              <tr>
+                  <th class="specs" colspan="4">Product specificaties</th>
+                  <!--<td colspan="5" class="bgColor">
+                      <h4>Product specificaties</h4>
+                  </td>-->
+              </tr>
+              <tr class="tblSection">
+                  <th class="tblTitle">Merk</th>
+                  <td class="tblContent"><p id="article-brand"></p></td>
+                  <th class="tblTitle">Gewicht</th>
+                  <td class="test"><p id="article-gewicht"></p></td>
+              </tr>
+      
+              <tr class="tblSection">
+                  <th>Prijs</th>
+                  <td><p id="article-price"></p></td>
+                  <th>Opvang</th>
+                  <td><p id="article-opvang"></p></td>
+              </tr>
+              <tr class="tblSection">
+                  <th>Motor</th>
+                  <td><p id="article-motor"></p></td>
+                  <th>Aandrijving</th>
+                  <td><p id="article-aandr"></p></td>
+              </tr>
+              <tr class="tblSection">
+                  <th>Voltage</th>
+                  <td><p id="article-volt"></p></td>
+                  <th>Boost</th>
+                  <td><p id="article-boost"></p></td>
+              </tr>
+              <tr class="tblSection">
+                  <th>Maaibreedte</th>
+                  <td><p id="article-breedte"></p></td>
+                  <th>Mulching</th>
+                  <td><p id="article-mulch"></p></td>
+              </tr>
+              <tr class="tblSection">
+                  <th>Maaihoogte</th>
+                  <td><p id="article-hoogte"></p></td>
+                  <th id="myElement">Duwboom</th>
+                  <td id="myElement"><p id="article-duwboom"></p></td>
+              </tr>
+              <tr class="tblSection">
+                  <th>Maaihoogte instellen</th>
+                  <td><p id="article-inst"></p></td>
+                  <th id="myElement2">Rijsnelheid</th>
+                  <td id="myElement2"><p id="article-rijsnelh"></p></td>
+              </tr>
+  
+              <tr class="remarks">
+                  <th id="opm" rowspan="2" colspan="5">
+                      <!--Opmerking: Lader en laadstation <strong>Niet meegeleverd</strong>, apart verkrijgbaar-->
+                      <!--<p>
+                          <button>Laders</button>
+                          <button>Laadstations</button>
+                      </p>-->
+                  </th>
+              </tr>
+          </table>
+          </div>
+        </div>
+      </div>
     </div>
+
 <script src="../js/articles.js"></script>
+<script src="../js/FullScreen.js"></script>
 </body>
 </html>
