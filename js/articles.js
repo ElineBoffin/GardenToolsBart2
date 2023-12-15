@@ -142,6 +142,7 @@
                 mulch: 'Ja',
                 duwboom: 'Instelbaar in 3 standen',
                 rijsnelh: '2,16 km/u - 5,4 km/u',
+                imgUrl: '../assets/Grasmaaiers/82LM61SX.png',
                 opm: 'Opmerking: Lader en laadstation Niet meegeleverd, apart verkrijgbaar',
             },
             /*'7': { 

@@ -16,6 +16,10 @@ body {
   backface-visibility: hidden;
 }
 
+#customers {
+  width: 100%;
+}
+
 #customers td,
 #customers .specs {
   border: 1px solid #ddd;
@@ -51,6 +55,11 @@ body {
 .tblSection th {
   width: 15%;
   border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.tblSection td {
+  width: 15%;
   padding: 5px;
 }
 
@@ -107,6 +116,10 @@ body {
   font-weight: 600;
 }
 
+p {
+  margin: 10px;
+}
+
 .content .sub-content span.location {
   display: block;
   margin: 5px 0 20px;
@@ -125,6 +138,8 @@ body {
   width: 100%;
   overflow: hidden;
   margin: 30px 0 20px;
+  /*display: flex;
+  justify-content: center;*/
 }
 
 .inner-data {
@@ -158,6 +173,63 @@ body {
 :fullscreen {
   background-color: whitesmoke;
 }
+
+@media only screen and (max-width: 550px) {
+  /*#customers {
+    display: none;
+  }*/
+  #customers tr {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #customers th, #customers td {
+    flex: 50%; /* Two items per row */
+    box-sizing: border-box;
+  }
+
+  #customers th, #customers td {
+    /*border: none;*/
+    border-bottom: 1px solid #ddd;
+    position: relative;
+  }
+
+  #customers th:before, #customers td:before {
+    content: attr(data-label);
+    font-weight: bold;
+    width: 100%;
+    padding-bottom: 6px;
+  }
+
+  #customers th:before, #customers td:before {
+    /* Now like a table header */
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    white-space: nowrap;
+  }
+
+  /* Adjust styling for special cases */
+  #customers th[colspan="4"]:before, #customers td[colspan="4"]:before {
+    width: 100%;
+    white-space: normal;
+  }
+
+  .tblSection th {
+    width: 15%;
+    border: 1px solid #ddd;
+    padding: 15px;
+  }
+
+  #customers tr:nth-child(even) {
+    background-color: whitesmoke;
+  }
+  
+  #customers tr:hover {
+    background-color: white;
+  }
+}
+
 
 /*.btn {
   clear: both;

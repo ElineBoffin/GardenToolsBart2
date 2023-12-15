@@ -7,7 +7,7 @@
             '1': { 
                 naam: 'XCR82LT107',
                 brand: 'Cramer', 
-                content: 'lorem loremloremloremloremlremlorememloremloreemloremloremloremlemloremloremloremlemloremloremloremlmloremloremloremloremloremloremloremlolotrerlerkoefkefejfbjebfjjremloremlorem',
+                content: 'lorem loremloremloremloremlremlorememlormlorem',
                 price: '\u20AC 5999.00',
                 motor: 'Borstelloos',
                 maaidek: 'Staal - 107 cm',
@@ -22,8 +22,8 @@
                 zittig: 'Instelbare stoel',
                 parkeerrem: 'Ja, manueel',
                 beveiliging: 'Nee',
-                snelhV: '0 - 12,8 km/u',
-                snelhA: '0 - 4,8 km/u',
+                //snelhV: '0 - 12,8 km/u',
+                //snelhA: '0 - 4,8 km/u',
                 maxOpp: '10.500 m²',
                 laadtijd: '86 min.',
                 wiel: 'Voor: 15 x 6-6 / Achter: 20 x 10,8',
@@ -51,8 +51,8 @@
                 zittig: 'Instelbare stoel',
                 parkeerrem: 'Ja, manueel',
                 beveiliging: 'Nee',
-                snelhV: '0 - 12,9 km/u',
-                snelhA: '0 - 12,9 km/u',
+                //snelhV: '0 - 12,9 km/u',
+                //snelhA: '0 - 12,9 km/u',
                 maxOpp: '10.500 m²',
                 laadtijd: '86 min.',
                 wiel: 'Voor: 11 x 4-5 / Achter: 20 x 10-8',
@@ -80,8 +80,8 @@
                 zittig: 'Geveerde stoel',
                 parkeerrem: 'Elektromagnetisch',
                 beveiliging: 'Ja',
-                snelhV: '0 - 16 km/u',
-                snelhA: '0 - 8 km/u',
+                //snelhV: '0 - 16 km/u',
+                //snelhA: '0 - 8 km/u',
                 maxOpp: '40.000 m² hard / 32.000 m² gemiddeld/ 24.000 m² licht',
                 laadtijd: 'standaard 10-12 u / snellader 2-3 u (apart verkrijgbaar).',
                 wiel: 'Voor: 13 x 6.5-5 / Achter: 20 x 13.5-12',
@@ -112,16 +112,17 @@
             document.getElementById('zitmaaier-zitting').textContent = zitmaaier.zitting;
             document.getElementById('zitmaaier-parkeerrem').textContent = zitmaaier.parkeerrem;
             document.getElementById('zitmaaier-beveiliging').textContent = zitmaaier.beveiliging;
-            document.getElementById('zitmaaier-snelhV').textContent = zitmaaier.snelhV;
-            document.getElementById('zitmaaier-snelhA').textContent = zitmaaier.snelhA;
+            /*document.getElementById('zitmaaier-snelhV').textContent = zitmaaier.snelhV;*/
+            //document.getElementById('zitmaaier-snelhA').textContent = zitmaaier.snelhA;
             document.getElementById('zitmaaier-maxOpp').textContent = zitmaaier.maxOpp;
             document.getElementById('zitmaaier-laadtijd').textContent = zitmaaier.laadtijd;
             document.getElementById('zitmaaier-wiel').textContent = zitmaaier.wiel;
             document.getElementById('zitmaaier-gewicht').textContent = zitmaaier.gewicht;
+
             document.getElementById('zitmaaier-ip').textContent = zitmaaier.ip;
             
-            const imageElement = document.getElementById('zitmaaier-image');
-            imageElement.src = zitmaaier.imgUrl;
+            const ZitmaaierImageElement = document.getElementById('zitmaaier-image');
+            ZitmaaierImageElement.src = zitmaaier.imgUrl;
         }
 
         // navigation hamburger responsive

@@ -14,6 +14,8 @@ const bosmaaiers = {
         breedte: '40 cm',
         gewicht: '4.3 kg',
         snelheid: '5700 tpm',
+        mes: 'X',
+        motor: 'X',
         imgUrl: '../assets/Bosmaaiers/82T15.png',
 
     },
@@ -28,6 +30,8 @@ const bosmaaiers = {
         breedte: '41 cm',
         gewicht: '4.5 kg',
         snelheid: '6500 tpm',
+        mes: 'X',
+        motor: 'X',
         imgUrl: '../assets/Bosmaaiers/82T20.png',
 
     },
@@ -43,6 +47,7 @@ const bosmaaiers = {
         gewicht: '4.5 kg',
         snelheid: '4500 - 5500 - 6000 - 6500 tpm',
         mes: '255 mm',
+        motor: 'X',
         imgUrl: '../assets/Bosmaaiers/82TB10.png',
 
     },
@@ -58,6 +63,7 @@ const bosmaaiers = {
         gewicht: '4.5 kg',
         snelheid: '6500 tpm',
         mes: '300 mm',
+        motor: 'X',
         imgUrl: '../assets/Bosmaaiers/82TB20.png',
 
     },
