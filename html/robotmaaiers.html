@@ -14,6 +14,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
+  <link rel="stylesheet" href="../css/details.css">
   <link rel="stylesheet" type="text/css" href="../css/navigation.css">
   <link rel="stylesheet" type="text/css" href="../css/artCard.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -25,7 +26,7 @@
   <!--Start nav-->
   <nav class="navbar navbar-expand-sm">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">GardenToolsBart</a>
+      <a class="navbar-brand" href="../html/home.html">GardenToolsBart</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon">
           <img src="../assets/icons/hamburger.png" style="height: 20px; width: 20px; color: #323647;">
@@ -150,6 +151,61 @@
       </div>
     </div>
   </div>
+
+  <!--Accessoires-->
+  <h1 class="title">Accessoires</h1>
+  <div class="cards">
+    <!--Garage-->
+    <div class="first card">
+      <img class="profile-img" src="../assets/Accessoires/garage2.png" alt="">
+      <div class="description-bk"></div>
+      <div class="logo">
+        <img src="../assets/Cramer.png" />
+      </div>
+      <div class="description">
+        <!--<p>test</p>-->
+      </div>
+      <div class="date">
+        <p>Garage</p>
+      </div>
+      <div class="btn">
+        <!--<a href="../html/detailsRobot.html">Details</a>-->
+        <a type="button" data-toggle="modal" data-target="#exampleModalCenter">
+          Details
+        </a>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img style="width: 270px; height: 250px;" src="../assets/Accessoires/garage1.png">
+                <img style="width: 300px; height: 250px;" src="../assets/Accessoires/garage2.png">
+                <table id="customers">
+                  <tr>
+                      <th class="specs" colspan="4">Product specificaties</th>
+                      <!--<td colspan="5" class="bgColor">
+                          <h4>Product specificaties</h4>
+                      </td>-->
+                  </tr>
+                  <tr class="tblSection">
+                      <th class="tblTitle">Prijs</th>
+                      <td class="tblContent"><p> </p>€ 159.95</td>
+                  </tr>
+              </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
@@ -163,4 +219,8 @@
       x.className = "topnav";
     }
   }
+
+  $('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
 </script>

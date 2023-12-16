@@ -92,6 +92,14 @@ body {
   left: -7%;
 }
 
+.container .profile-imgRobot {
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  top: -80px;
+  left: -7%;
+}
+
 .content {
   padding: 65px 20px 20px;
 }
@@ -165,10 +173,14 @@ p {
   width: 100%;
 }
 
-.profile-img {
+img .acc1 {
+  width: 10px;
+  height: 10px;
+}
+/*.profile-img {
   width: max(50vw, 500px);
   height: max(50vh, 500px);
-}
+}*/
 
 :fullscreen {
   background-color: whitesmoke;

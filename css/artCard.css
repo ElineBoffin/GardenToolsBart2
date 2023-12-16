@@ -5,7 +5,7 @@
 .card {
     display: inline-block;
     position: relative;
-        /*min-width: 350px;*/
+    /*min-width: 350px;*/
     width: 350px;
     height: 350px;
     border-radius: 30px;
@@ -58,9 +58,9 @@
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.7);
 }
 
-    .logo img {
-        height: 100%;
-    }
+.logo img {
+    height: 100%;
+}
 
 .hero-description {
     position: absolute;
@@ -79,9 +79,9 @@
     border: 1px solid #fff;
 }
 
-    .btn a {
-        color: #fff;
-    }
+.btn a {
+    color: #fff;
+}
 
 .date {
     position: absolute;
@@ -89,6 +89,7 @@
     left: 30px;
     bottom: 10%;
 }
+
 /* END CARD DESIGN */
 
 body {
@@ -117,13 +118,23 @@ body {
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       -webkit-text-stroke: 1px #808080;*/
-      font-family: system-ui;
-      margin-left: 20px;
-      font-size: 45px;
-      color: #323647;
-  }
+    font-family: system-ui;
+    margin-left: 20px;
+    font-size: 45px;
+    color: #323647;
+}
 
-  @media only screen and (min-width: 374px) {
+#exampleModalCenter .modal-dialog {
+    max-width: 50%;
+}
+
+#exampleModalCenter .modal-dialog.modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    min-height: calc(100% - 1rem);
+}
+
+@media only screen and (min-width: 374px) {
     .card {
         /*display: inline-block;
         position: relative;
@@ -139,9 +150,11 @@ body {
     }
 
 
-  }
+}
 
-  @media only screen and (min-width: 1206px) { /*1374px*/
+@media only screen and (min-width: 1206px) {
+
+    /*1374px*/
     .card {
         /*display: inline-block;
         position: relative;
@@ -158,12 +171,12 @@ body {
 
 
 
-    
-  }
 
-  /*TEST*/
+}
 
-  /*.card__header {
+/*TEST*/
+
+/*.card__header {
     position: relative;
     display: flex;
     align-items: center;
@@ -201,5 +214,3 @@ body {
     -webkit-line-clamp: 3;
     overflow: hidden;
   }*/
-
-  
