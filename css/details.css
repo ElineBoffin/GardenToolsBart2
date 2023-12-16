@@ -65,6 +65,11 @@ body {
 
 .tblContent {
   width: 20%;
+  color: black;
+}
+
+.tblTitle {
+  color: black;
 }
 
 .wrapper {
