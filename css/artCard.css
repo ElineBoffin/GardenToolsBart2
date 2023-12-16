@@ -129,23 +129,84 @@ body {
     height: 250px;
 }
 
-#exampleModalCenter .modal-dialog {
+#garageModal .modal-dialog {
     max-width: 50%;
 }
 
-#exampleModalCenter .modal-dialog.modal-dialog-centered {
+#garageModal .modal-dialog.modal-dialog-centered {
     display: flex;
     align-items: center;
     min-height: calc(100% - 1rem);
 }
 
+#kitModal .modal-dialog {
+    max-width: 50%;
+}
+
+#kitModal .modal-dialog.modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    min-height: calc(100% - 1rem);
+}
+
+#kitModal img {
+    width: 300px;
+    height: 250px;
+}
+
+/*Messen en schroeven*/
+#mesModal .modal-dialog {
+    max-width: 50%;
+}
+
+#mesModal .modal-dialog.modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    min-height: calc(100% - 1rem);
+}
+
+#mesModal img {
+    width: 300px;
+    height: 250px;
+}
+
+/*Line trough text*/
+/*h1 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+    margin-top: 5%;
+    margin-top: 3%;
+ } 
+
+ h1 span { 
+    background: whitesmoke; 
+    padding:0 10px; 
+}*/
+
 @media only screen and (max-width: 1300px) {
-    #exampleModalCenter .modal-dialog {
+    
+    #garageModal .modal-dialog {
+        max-width: 95%;
+    }
+
+    #kitModal .modal-dialog {
+        max-width: 95%;
+    }
+
+    #mesModal .modal-dialog {
         max-width: 95%;
     }
 
     .modal-body img {
         width: 150px;
+        height: 150px;
+    }
+
+    .imgKit {
+        width: 170px;
         height: 150px;
     }
 }

@@ -52,6 +52,16 @@ body {
   padding: 5px;
 }
 
+#opmAcc {
+  text-align: left;
+  /*background-color: #04AA6D;*/
+  /*color: white;*/
+  color: black;
+  font-size: 15px;
+  border: 1px solid #ddd;
+  height: 15px;
+}
+
 .tblSection th {
   width: 15%;
   border: 1px solid #ddd;
@@ -70,6 +80,15 @@ body {
 
 .tblTitle {
   color: black;
+}
+
+.modal-title {
+  color: black;
+}
+
+.btn:hover {
+  color: white;
+  text-decoration: underline;
 }
 
 .wrapper {
