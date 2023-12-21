@@ -15,6 +15,8 @@ const openFullScreen = (element) => {
   
   const image = document.querySelector('.profile-img')
   const imageRobot = document.querySelector('.profile-imgRobot')
+  const imageBlad = document.querySelector('.profile-img2')
+  const imageBladHeg = document.querySelector('.profile-img-heg')
   
   //images
   image.addEventListener('click',(e) => {
@@ -23,17 +25,6 @@ const openFullScreen = (element) => {
   })
 
   image.addEventListener('touchstart',(e) => {
-    const img = e.currentTarget;
-    openFullScreen(img)
-  })
-
-  //images robots
-  imageRobot.addEventListener('click',(e) => {
-    const img = e.currentTarget;
-    openFullScreen(img)
-  })
-
-  imageRobot.addEventListener('touchstart',(e) => {
     const img = e.currentTarget;
     openFullScreen(img)
   })

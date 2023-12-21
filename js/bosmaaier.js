@@ -7,7 +7,7 @@ const bosmaaiers = {
     '1': {
         naam: 'XCR82T15',
         brand: 'Cramer',
-        content: 'fff',
+        content: 'Borstelloze motor - U-stuur Met Tecomec Tap-N-Go maaikop & bosmaaiermes. Geleverd zonder batterij en lader. Batterijen en laders optioneel verkrijgbaar.',
         price: '\u20AC 339.95',
         vermogen: '1.5 kW',
         volt: '82 V',
@@ -23,7 +23,7 @@ const bosmaaiers = {
     '2': {
         naam: 'XCR82T20',
         brand: 'Cramer',
-        content: 'fff',
+        content: 'Brushless motor - Loop handle - BasicAssist schouderriem. Geleverd met Tap & Go maaikop. Achteruitfunctie om gras dat rond de trimmerkop is gewikkeld los te maken. 2-staps snelheidsregelaar om het maximale toerental in te stellen aangepast aan het werk, waardoor u looptijd bespaard. Geleverd zonder batterij en lader.',
         price: '\u20AC 419.95',
         vermogen: '2.0 kW',
         volt: '82 V',
@@ -39,7 +39,7 @@ const bosmaaiers = {
     '3': {
         naam: 'XCR82TB10',
         brand: 'Cramer',
-        content: 'fff',
+        content: 'Brushless motor - Loop handle- Basic Assist schouderriem. Geleverd met Tap & Go maaikop met een maaibreedte van 41 cm. 3-tandsmes (Ø 300 mm) optioneel verkrijgbaar als kit. Achteruitfunctie om gras dat rond de trimmerkop is gewikkeld los te maken. 2-staps snelheidsregelaar om het maximale toerental in te stellen aangepast aan het werk, waardoor u looptijd bespaard. Geleverd zonder batterij en lader.',
         price: '\u20AC 425.00',
         vermogen: '1.0 kW',
         volt: '82 V',
@@ -55,7 +55,7 @@ const bosmaaiers = {
     '4': {
         naam: 'XCR82TB20',
         brand: 'Cramer',
-        content: 'fff',
+        content: 'Brushless motor - U-stuur. Geleverd met Tap & Go maaikop met een maaibreedte van 45 cm, 3-tandsmes (Ø 300 mm) en een ergonomisch harnas. Achteruitfunctie om gras dat rond de trimmerkop is gewikkeld los te maken. 2-staps snelheidsregelaar om het maximale toerental in te stellen aangepast aan het werk, waardoor u looptijd bespaard. Geleverd zonder batterij en lader.',
         price: '\u20AC 519.95',
         vermogen: '2.0 kW',
         volt: '82 V',
@@ -71,7 +71,7 @@ const bosmaaiers = {
     '5': {
         naam: 'XCR82TBX20',
         brand: 'Cramer',
-        content: 'fff',
+        content: 'Met U stuur, vergelijkbaar met een 40 cm3 benzinemotor-3 in 1: geleverd met maaikop, maaimes, cirkelzaag,drie verschillende beschermkappen en ergonomisch harnas. Achteruitfunctie om gras dat rond de trimmerkop is gewikkeld los te maken. 4-staps snelheidsregelaar om het maximale toerental in te stellen aangepast aan het werk, waardoor u looptijd bespaard. Geleverd zonder batterij en lader.',
         price: '\u20AC 624.95',
         vermogen: '2.0 kW',
         volt: '82 V',
@@ -81,6 +81,22 @@ const bosmaaiers = {
         mes: '300 mm',
         motor: 'Borstelloos',
         imgUrl: '../assets/Bosmaaiers/XCR82TBX20.png',
+
+    },
+
+    '6': {
+        naam: 'XCR48TB10',
+        brand: 'Cramer',
+        content: 'Brushless motor - U-stuur - ErgoAssist harnas 4-traps toerentalregeling - Geleverd met Tap & Go maaikop en 3-tands mes Ø 25,5 cm. Geleverd zonder batterij en lader.',
+        price: '\u20AC 239.95',
+        vermogen: '1.0 kW',
+        volt: '48 V',
+        breedte: '40 cm',
+        gewicht: '4.5 kg',
+        snelheid: '6300 tpm',
+        mes: 'X',
+        motor: 'X',
+        imgUrl: '../assets/Bosmaaiers/48TB10.png',
 
     },
 };

@@ -7,7 +7,7 @@
             '1': { 
                 naam: 'XCR48LM48SP',
                 brand: 'Cramer', 
-                content: 'Grasmaaier - Aangedreven model - Boost functie voor een hoger toerental van het mes bij hoog gras. Dubbele accuhouder: schakelt automatisch over van 1ste naar 2de accu. 3 in 1: Opvangen / mulchen / zijuitworp. Verstelbaar ergonomisch stuur.',
+                content: 'Geschikt voor oppervlaktes tot 800 m2. Eenvoudig, effici\u00EBnt en met volledige functionaliteit. Volledige controle met app: Statusinstellingen, Software updates. Bluetooth connectiviteit. Verwijderbare behuizing en eenvoudige reiniging met een tuinslang (IPX5 sproeidicht). Effici\u00EBnt en onderhoudsvrij dankzij borstelloze motoren. Messenschijf met haarscherpe dubbel geslepen pivoterende messen.',
                 price: '\u20AC 999.95',
                 motor: 'Borstelloos',
                 breedte: '17 cm',
@@ -30,7 +30,7 @@
             '2': { 
                 naam: 'XCRRM1000-G',
                 brand: 'Cramer', 
-                content: 'Grasmaaier - Aangedreven model - Boost functie voor een hoger toerental van het mes bij hoog gras. Dubbele accuhouder: schakelt automatisch over van 1ste naar 2de accu. 3 in 1: Opvangen / mulchen / zijuitworp. Verstelbaar ergonomisch stuur.',
+                content: 'Robotmaaier met nieuwe 2P batterij 4Ah. Geschikt voor oppervlaktes tot 1.000 m2. Eenvoudig, effici\u00EBnt en met volledige functionaliteit. Mobiele GSM-communicatiemodule voor GPS-positionering en app-verbinding. Vorst- en regensensoren om uw gazon te beschermen Afstandsbediening via app: antidiefstalbeveiliging, apparaatstatus en aangepaste instellingen. Verwijderbare behuizing en eenvoudige reiniging met een tuinslang (IPX5 sproeidicht). Effici\u00EBnt en onderhoudsvrij dankzij borstelloze motoren - Messenschijf met haarscherpe dubbel geslepen pivoterende messen.',
                 price: '\u20AC 1199.95',
                 motor: 'Borstelloos',
                 breedte: '22 cm',
@@ -52,7 +52,7 @@
             '3': { 
                 naam: 'XCRRM1500-G',
                 brand: 'Cramer', 
-                content: 'Grasmaaier - Aangedreven model - Boost functie voor een hoger toerental van het mes bij hoog gras. Dubbele accuhouder: schakelt automatisch over van 1ste naar 2de accu. 3 in 1: Opvangen / mulchen / zijuitworp. Verstelbaar ergonomisch stuur.',
+                content: 'Robotmaaier met nieuwe 2P batterij 4Ah. Geschikt voor oppervlaktes tot 1.500 m2. Eenvoudig, effici\u00EBnt en met volledige functionaliteit. Mobiele GSM-communicatiemodule voor GPS-positionering en app-verbinding. Vorst- en regensensoren om uw gazon te beschermen Afstandsbediening via app: antidiefstalbeveiliging, apparaatstatus en aangepaste instellingen. Verwijderbare behuizing en eenvoudige reiniging met een tuinslang (IPX5 sproeidicht). Effici\u00EBnt en onderhoudsvrij dankzij borstelloze motoren - Messenschijf met haarscherpe dubbel geslepen pivoterende messen.',
                 price: '\u20AC 1499.95',
                 motor: 'Borstelloos',
                 breedte: '22 cm',
@@ -74,7 +74,7 @@
             '4': { 
                 naam: 'XCRRM2000-G',
                 brand: 'Cramer', 
-                content: 'Grasmaaier - Aangedreven model - Boost functie voor een hoger toerental van het mes bij hoog gras. Dubbele accuhouder: schakelt automatisch over van 1ste naar 2de accu. 3 in 1: Opvangen / mulchen / zijuitworp. Verstelbaar ergonomisch stuur.',
+                content: 'Robotmaaier met nieuwe 2P batterij 4Ah. Geschikt voor oppervlaktes tot 2.000 m\u00B2. Eenvoudig, effici\u00EBnt en met volledige functionaliteit. Mobiele GSM-communicatiemodule voor GPS-positionering en app-verbinding. Vorst- en regensensoren om uw gazon te beschermen Afstandsbediening via app: antidiefstalbeveiliging, apparaatstatus en aangepaste instellingen. Verwijderbare behuizing en eenvoudige reiniging met een tuinslang (IPX5 sproeidicht). Effici\u00EBnt en onderhoudsvrij dankzij borstelloze motoren - Messenschijf met haarscherpe dubbel geslepen pivoterende messen.',
                 price: '\u20AC 1699.95',
                 motor: 'Borstelloos',
                 breedte: '22 cm',
@@ -97,7 +97,7 @@
             '5': { 
                 naam: 'XCRRM2700-G',
                 brand: 'Cramer', 
-                content: 'Grasmaaier - Aangedreven model - Boost functie voor een hoger toerental van het mes bij hoog gras. Dubbele accuhouder: schakelt automatisch over van 1ste naar 2de accu. 3 in 1: Opvangen / mulchen / zijuitworp. Verstelbaar ergonomisch stuur.',
+                content: 'Robotmaaier met nieuwe 2P batterij 4Ah. Geschikt voor oppervlaktes tot 2.700 m\u00B2. Eenvoudig, effici\u00EBnt en met volledige functionaliteit. Mobiele GSM-communicatiemodule voor GPS-positionering en app-verbinding. Vorst- en regensensoren om uw gazon te beschermen Afstandsbediening via app: antidiefstalbeveiliging, apparaatstatus en aangepaste instellingen. Verwijderbare behuizing en eenvoudige reiniging met een tuinslang (IPX5 sproeidicht). Effici\u00EBnt en onderhoudsvrij dankzij borstelloze motoren - Messenschijf met haarscherpe dubbel geslepen pivoterende messen.',
                 price: '\u20AC 1899.95',
                 motor: 'Borstelloos',
                 breedte: '22 cm',

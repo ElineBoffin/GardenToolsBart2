@@ -7,7 +7,7 @@
             '1': { 
                 naam: 'XCR48LM48SP',
                 brand: 'Cramer', 
-                content: 'Grasmaaier - Aangedreven model - Boost functie voor een hoger toerental van het mes bij hoog gras. Dubbele accuhouder: schakelt automatisch over van 1ste naar 2de accu. 3 in 1: Opvangen / mulchen / zijuitworp. Verstelbaar ergonomisch stuur.',
+                content: 'Aangedreven model - Boost functie voor een hoger toerental van het mes bij hoog gras. Dubbele accuhouder: schakelt automatisch over van 1ste naar 2de accu. 3 in 1: Opvangen / mulchen/zijuitworp. Verstelbaar ergonomisch stuur. Geleverd zonder batterij en lader. Batterijen en laders optioneel verkrijgbaar.',
                 price: '\u20AC 499.95',
                 motor: 'Borstelloos',
                 volt: '48V',
@@ -28,7 +28,7 @@
             '2': { 
                 naam: "XCR48LM48SP-KIT",
                 brand: 'Cramer', 
-                content: 'Grasmaaier - Aangedreven model - Boost functie voor een hoger toerental van het mes bij hoog gras. Dubbele accuhouder: schakelt automatisch over van 1ste naar 2de accu. 3 in 1: Opvangen / mulchen / zijuitworp. Verstelbaar ergonomisch stuur.',
+                content: 'Aangedreven model- Boost functie voor een hoger toerental van het mes bij hoog gras. Dubbele accuhouder: schakelt automatisch over van 1ste naar 2de accu. 3 in 1: Opvangen / mulchen/zijuitworp. Verstelbaar ergonomisch stuur.',
                 price: '\u20AC 624.95',
                 motor: 'Borstelloos',
                 volt: '48V',
@@ -48,7 +48,7 @@
             '3': { 
                 naam: 'XCR48LM41', 
                 brand: 'Cramer', 
-                content: 'Grasmaaier - Aangedreven model - Boost functie voor een hoger toerental van het mes bij hoog gras. Dubbele accuhouder: schakelt automatisch over van 1ste naar 2de accu. 3 in 1: Opvangen / mulchen / zijuitworp. Verstelbaar ergonomisch stuur.',
+                content: 'Duwmodel - Opvouwbaar stuur. 2 in 1: Mulchen en vangen. Verstelbaar ergonomisch stuur. Batterijen en laders optioneel verkrijgbaar.',
                 price: '\u20AC 469.95',
                 motor: 'Borstelloos',
                 volt: '48V',
@@ -65,7 +65,7 @@
                 duwboom: 'X',
                 rijsnelh: 'X'
             },
-            '4': { 
+            '4': { /*CONTENT*/
                 naam: 'XCR48LM41-KIT', 
                 brand: 'Cramer', 
                 content: 'Grasmaaier - Aangedreven model - Boost functie voor een hoger toerental van het mes bij hoog gras. Dubbele accuhouder: schakelt automatisch over van 1ste naar 2de accu. 3 in 1: Opvangen / mulchen / zijuitworp. Verstelbaar ergonomisch stuur.',
@@ -88,7 +88,7 @@
             '5': { 
                 naam: 'XCR82LM46SX', 
                 brand: 'Cramer', 
-                content: 'Grasmaaier - Aangedreven model - Boost functie voor een hoger toerental van het mes bij hoog gras. Dubbele accuhouder: schakelt automatisch over van 1ste naar 2de accu. 3 in 1: Opvangen / mulchen / zijuitworp. Verstelbaar ergonomisch stuur.',
+                content: 'Aangedreven model (vario) - Brushless motor Dubbele accuhouder: schakelt automatisch over van 1ste naar 2de accu. Automatische boost verhoogt de messnelheid bij dikker of hoger gras. Opvangen/mulchen/zijuitworp. Geleverd zonder batterij en lader. Batterijen en laders optioneel verkrijgbaar.',
                 price: '\u20AC 664.95',
                 motor: 'Borstelloos',
                 volt: '82V',
@@ -108,7 +108,7 @@
             '6': { 
                 naam: 'XCR82LM51SX', 
                 brand: 'Cramer', 
-                content: 'Grasmaaier - Aangedreven model - Boost functie voor een hoger toerental van het mes bij hoog gras. Dubbele accuhouder: schakelt automatisch over van 1ste naar 2de accu. 3 in 1: Opvangen / mulchen / zijuitworp. Verstelbaar ergonomisch stuur.',
+                content: 'Aangedreven model (vario) - Brushless motor Dubbele accuhouder: schakelt automatisch over van 1ste naar 2de accu. Automatische boost verhoogt de messnelheid bij dikker of hoger gras. Opvangen/mulchen/zijuitworp. Geleverd zonder batterij en lader. Batterijen en laders optioneel verkrijgbaar.',
                 price: '\u20AC 759.95',
                 motor: 'Borstelloos',
                 volt: '82V',
@@ -129,7 +129,7 @@
             '7': { 
                 naam: 'XCR82LM61SX', 
                 brand: 'Cramer', 
-                content: 'Grasmaaier - Aangedreven model - Boost functie voor een hoger toerental van het mes bij hoog gras. Dubbele accuhouder: schakelt automatisch over van 1ste naar 2de accu. 3 in 1: Opvangen / mulchen / zijuitworp. Verstelbaar ergonomisch stuur.',
+                content: 'Aangedreven model (vario) - Brushless motor Dubbele accuhouder: schakelt automatisch over van 1ste naar 2de accu. Automatische boost verhoogt de messnelheid bij dikker of hoger gras. Opvangen / mulchen/zijuitworp. Geleverd zonder batterij en lader. Batterijen en laders optioneel verkrijgbaar.',
                 price: '\u20AC 1019.95',
                 motor: 'Borstelloos',
                 volt: '82V',

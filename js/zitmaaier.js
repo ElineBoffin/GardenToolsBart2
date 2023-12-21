@@ -7,7 +7,7 @@
             '1': { 
                 naam: 'XCR82LT107',
                 brand: 'Cramer', 
-                content: 'lorem loremloremloremloremlremlorememlormlorem',
+                content: 'De 82LT107 is een 82V accu-aangedreven zitmaaier voor huishoudelijk gebruik met een 107 cm stalen mulchdek en dubbele 1,2 kW motoren, voor uitzonderlijke maaiprestaties en productiviteit over grote oppervlakken tot 10.500 m2 op een enkele lading (6 x 8 Ah accu\u0027s). Met ergonomisch ontwerp en uitstekend zicht voor comfort tijdens langdurig gebruik, en hoge wendbaarheid dankzij de kleine draaicirkel.',
                 price: '\u20AC 5999.00',
                 motor: 'Borstelloos',
                 maaidek: 'Staal - 107 cm',
@@ -22,8 +22,8 @@
                 zittig: 'Instelbare stoel',
                 parkeerrem: 'Ja, manueel',
                 beveiliging: 'Nee',
-                //snelhV: '0 - 12,8 km/u',
-                //snelhA: '0 - 4,8 km/u',
+                snelhV: '0 - 12,8 km/u',
+                snelhA: '0 - 4,8 km/u',
                 maxOpp: '10.500 m²',
                 laadtijd: '86 min.',
                 wiel: 'Voor: 15 x 6-6 / Achter: 20 x 10,8',
@@ -36,7 +36,7 @@
             '2': { 
                 naam: 'XCR82ZT107',
                 brand: 'Cramer', 
-                content: 'fff',
+                content: 'De 82ZT107 is een 82V accu-aangedreven residentiële zero-turn maaier met een 107 cm stalen mulchdek en dubbele 1,2 kW motoren, voor uitzonderlijke maaiprestaties en productiviteit over grote oppervlakken tot 10.500 m2 op een enkele lading (met 6 x 8 Ah accu\u0027s). Met ergonomisch ontwerp en uitstekend zicht voor comfort tijdens langdurig gebruik, en hoge wendbaarheid dankzij de individuele wielmotoren om ter plaatse te draaien.',
                 price: '\u20AC 7999.00',
                 motor: 'Borstelloos',
                 maaidek: 'Staal - 107 cm',
@@ -51,8 +51,8 @@
                 zittig: 'Instelbare stoel',
                 parkeerrem: 'Ja, manueel',
                 beveiliging: 'Nee',
-                //snelhV: '0 - 12,9 km/u',
-                //snelhA: '0 - 12,9 km/u',
+                snelhV: '0 - 12,9 km/u',
+                snelhA: '0 - 12,9 km/u',
                 maxOpp: '10.500 m²',
                 laadtijd: '86 min.',
                 wiel: 'Voor: 11 x 4-5 / Achter: 20 x 10-8',
@@ -65,7 +65,7 @@
             '3': { 
                 naam: 'XCR82ZT132',
                 brand: 'Cramer', 
-                content: 'fff',
+                content: 'De 82-Volt Zero Turn-maaier is ontworpen voor professioneel gazononderhoud en grote grasoppervlaktes. De maaier heeft een stalen maaidek van 132 cm en een batterij van 16 kilowattuur. Hij draait de hele dag en maait tot 4 hectare per lading. Andere kenmerken zijn onder meer een maaidek met voetpedaalbediening voor eenvoudige afstelling van de maaihoogte en een elektrische start waarmee gebruikers aangedreven en niet-aangedreven accessoires kunnen gebruiken. Alle schakelaars, displays en borstelloze motoren zijn IPX4 plenswaterdicht. De 82V accu-aangedreven zitmaaier is een echt milieuvriendelijk alternatief voor benzine aangedreven machines.',
                 price: '\u20AC 27849.00',
                 motor: 'Borstelloos',
                 maaidek: 'Staal - 132 cm',
@@ -80,14 +80,14 @@
                 zittig: 'Geveerde stoel',
                 parkeerrem: 'Elektromagnetisch',
                 beveiliging: 'Ja',
-                //snelhV: '0 - 16 km/u',
-                //snelhA: '0 - 8 km/u',
+                snelhV: '0 - 16 km/u',
+                snelhA: '0 - 8 km/u',
                 maxOpp: '40.000 m² hard / 32.000 m² gemiddeld/ 24.000 m² licht',
                 laadtijd: 'standaard 10-12 u / snellader 2-3 u (apart verkrijgbaar).',
                 wiel: 'Voor: 13 x 6.5-5 / Achter: 20 x 13.5-12',
                 gewicht: '631 kg',
                 ip: 'IPX4',
-                imgUrl: '../assets/Zitmaaiers/82LT107.png',
+                imgUrl: '../assets/Zitmaaiers/82ZT132(voor).png',
 
             },
         };
@@ -112,8 +112,8 @@
             document.getElementById('zitmaaier-zitting').textContent = zitmaaier.zitting;
             document.getElementById('zitmaaier-parkeerrem').textContent = zitmaaier.parkeerrem;
             document.getElementById('zitmaaier-beveiliging').textContent = zitmaaier.beveiliging;
-            /*document.getElementById('zitmaaier-snelhV').textContent = zitmaaier.snelhV;*/
-            //document.getElementById('zitmaaier-snelhA').textContent = zitmaaier.snelhA;
+            document.getElementById('zitmaaier-snelhV').textContent = zitmaaier.snelhV;
+            document.getElementById('zitmaaier-snelhA').textContent = zitmaaier.snelhA;
             document.getElementById('zitmaaier-maxOpp').textContent = zitmaaier.maxOpp;
             document.getElementById('zitmaaier-laadtijd').textContent = zitmaaier.laadtijd;
             document.getElementById('zitmaaier-wiel').textContent = zitmaaier.wiel;

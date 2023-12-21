@@ -1,6 +1,10 @@
-/*body {
-    background-color: #D2DBDD;
-}*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    /*background-color: #eee;*/
+    background-color: whitesmoke;
+    min-height: 100vh;
+}
 
 .card {
     display: inline-block;
@@ -27,7 +31,21 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /*width: 50%*/
+    
+}
+
+.flag {
+    width: 40px;
+    height: 50px;
+    margin-top: -1px;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    margin-left: 9%;
+}
+
+.test {
+    z-index: 1;
 }
 
 .description-bk {
@@ -91,13 +109,6 @@
 }
 
 /* END CARD DESIGN */
-
-body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    /*background-color: #eee;*/
-    min-height: 100vh;
-}
 
 .btn i:before {
     width: 14px;
@@ -171,20 +182,21 @@ body {
 }
 
 /*Line trough text*/
-/*h1 {
-    width: 100%; 
+.title {
+    width: 90%; 
     text-align: center; 
     border-bottom: 1px solid #000; 
     line-height: 0.1em;
     margin: 10px 0 20px; 
-    margin-top: 5%;
-    margin-top: 3%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-left: 5%;
  } 
 
- h1 span { 
+ .title span { 
     background: whitesmoke; 
     padding:0 10px; 
-}*/
+}
 
 @media only screen and (max-width: 1300px) {
     
