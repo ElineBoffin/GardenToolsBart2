@@ -100,7 +100,7 @@
                 volt: '48 V',
                 snijLengte: '51 cm',
                 pitch: '30 cm',
-                handvat: 'SChouderriem',
+                handvat: 'Schouderriem',
                 gewicht: '4 kg',
                 snelheid: '3200 sneden/min',
                 capaciteit: 'Slag/snijdikte: 38mm / 30mm',
