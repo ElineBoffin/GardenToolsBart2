@@ -29,7 +29,7 @@ const openFullScreen = (element) => {
     openFullScreen(img)
   })
   
-  document.addEventListener('click', () => {
+  /*document.addEventListener('click', () => {
     if (document.fullscreenElement) { 
       document.exitFullscreen()
         .then(() => console.log("Document Exited form Full screen mode"))
@@ -43,4 +43,4 @@ const openFullScreen = (element) => {
         .then(() => console.log("Document Exited form Full screen mode"))
         .catch((err) => console.error(err))
     }
-  })
+  })*/

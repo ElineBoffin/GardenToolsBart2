@@ -152,11 +152,20 @@ body {
 
 .profile-img-snoei {
   width: 360px;
-  margin-top: 70px;
+  margin-top: 150px;
   transform: rotate(-25deg);
   position: absolute;
   top: -80px;
-  left: -7%;
+  left: -3%;
+}
+
+.profile-img-snoei2 {
+  width: 360px;
+  margin-top: 120px;
+  transform: rotate(-25deg);
+  position: absolute;
+  top: -80px;
+  left: -3%;
 }
 
 .content {

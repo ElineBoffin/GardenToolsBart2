@@ -13,7 +13,7 @@ const openFullScreen = (element) => {
     }
   }
   
-  const imageSnoei = document.querySelector('.profile-img-snoei')
+  const imageSnoei = document.querySelector('.profile-img-snoei2')
 
   //Blad
   imageSnoei.addEventListener('click',(e) => {
