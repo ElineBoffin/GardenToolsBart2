@@ -16,6 +16,7 @@ const bladblazersTWee = {
         gewicht: '2.5 kg',
         bladzuiger: 'Nee',
         volt: '82 V',
+        opm: 'Opmerking: Lader en laadstation Niet meegeleverd, apart verkrijgbaar',
         imgUrl: '../assets/Bladblazers/XCR82B22.png'
 
     },
@@ -31,6 +32,7 @@ const bladblazersTWee = {
         gewicht: '2.1 kg',
         bladzuiger: 'Nee',
         volt: '82 V',
+        opm: 'Opmerking: Lader en laadstation Niet meegeleverd, apart verkrijgbaar',
         imgUrl: '../assets/Bladblazers/XCR82B20.png'
     },
 
@@ -46,6 +48,7 @@ const bladblazersTWee = {
         gewicht: '6.7 kg',
         bladzuiger: 'Nee',
         volt: '82 V',
+        opm: 'Opmerking: Lader en laadstation Niet meegeleverd, apart verkrijgbaar',
         imgUrl: '../assets/Bladblazers/XCR82B26.png'
     },
 };
@@ -67,6 +70,7 @@ if (blad) {
     document.getElementById('blad-gewicht').textContent = blad.gewicht;
     document.getElementById('blad-bladzuiger').textContent = blad.bladzuiger;
     document.getElementById('blad-volt').textContent = blad.volt;
+    document.getElementById('opm').textContent = blad.opm;
 
     const imageElement = document.getElementById('blad-image');
     imageElement.src = blad.imgUrl;

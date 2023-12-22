@@ -20,11 +20,12 @@ const bladblazers = {
         gewicht: '2.51 kg',
         opvangzak: 'Nee',
         bladzuiger: 'Nee',
+        opm: 'Opmerking: Lader en laadstation Niet meegeleverd, apart verkrijgbaar',
         imgUrl: '../assets/Bladblazers/XCR48B800.png'
 
     },
     '2': { /*Bladzuiger*/ 
-        naam: 'XCR84BV800',
+        naam: 'XCR48BV800',
         brand: 'Cramer',
         content: 'Handgedragen bladblazer/zuiger. 10:1 mulchverhouding. Geleverd zonder batterij en lader. Batterijen en laders optioneel verkrijgbaar.',
         price: '\u20AC 194.95',
@@ -35,10 +36,11 @@ const bladblazers = {
         snelheid: 'Ja',
         luchtVolume: '576 m\u00B3/u',
         luchtSnelh: '86 m/s',
-        blaaskracht: 'X',
+        blaaskracht: '10 N',
         opvangzak: '54 liter',
         gewicht: '2.36 kg',
         bladzuiger: 'Ja',
+        opm: 'Opmerking: Lader en laadstation Niet meegeleverd, apart verkrijgbaar',
         imgUrl: '../assets/Bladblazers/XCR48BV800.png'
     },
 };
@@ -63,6 +65,7 @@ if (bladblazer) {
     document.getElementById('bladblazer-opvangzak').textContent = bladblazer.opvangzak;
     document.getElementById('bladblazer-gewicht').textContent = bladblazer.gewicht;
     document.getElementById('bladblazer-bladzuiger').textContent = bladblazer.bladzuiger;
+    document.getElementById('opm').textContent = bladblazer.opm;
 
     const imageElement = document.getElementById('bladblazer-image');
     imageElement.src = bladblazer.imgUrl;

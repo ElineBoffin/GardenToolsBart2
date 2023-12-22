@@ -14,6 +14,7 @@ const multitools = {
         breedte: '40 cm',
         gewicht: '4 kg',
         vermogen: 'X',
+        opm: 'Opmerking: Lader en laadstation Niet meegeleverd, apart verkrijgbaar',
         imgUrl: '../assets/Multitools/XCR48TX10.png',
 
     },
@@ -28,6 +29,7 @@ const multitools = {
         breedte: '40 cm',
         gewicht: '4 kg',
         vermogen: 'X',
+        opm: 'Opmerking: Inclusief Lader en laadstation.',
         imgUrl: '../assets/Multitools/XCR48TX10-KIT.png',
     },
 
@@ -41,6 +43,7 @@ const multitools = {
         breedte: 'X',
         gewicht: '4,5 kg',
         vermogen: '1.0 kW',
+        opm: 'Opmerking: Lader en laadstation Niet meegeleverd, apart verkrijgbaar',
         imgUrl: '../assets/Multitools/XCR48TB10-KIT.png',
     },
 };
@@ -57,6 +60,7 @@ if (multitool) {
     document.getElementById('multitool-breedte').textContent = multitool.breedte;
     document.getElementById('multitool-gewicht').textContent = multitool.gewicht;
     document.getElementById('multitool-vermogen').textContent = multitool.vermogen;
+    document.getElementById('opm').textContent = multitool.opm;
 
     const imageElement = document.getElementById('multitool-image');
     imageElement.src = multitool.imgUrl;

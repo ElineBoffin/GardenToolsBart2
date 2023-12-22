@@ -1,0 +1,876 @@
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"> <!--Bootstrap-->
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+        <!-- Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="../css/details.css">
+        <link rel="stylesheet" type="text/css" href="../css/navigation.css">
+        <link rel="stylesheet" type="text/css" href="../css/artCard.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/x-icon" href="../assets/icons/robotmaaier.png">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <title>Laders</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../html/home.html">GardenToolsBart</a>
+                <!--<div class="vertical"></div>-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon">
+                        <img src="../assets/icons/hamburger.png" style="height: 20px; width: 20px; color: #323647;">
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/home.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-nowrap" href="#" role="button"
+                                data-bs-toggle="dropdown">Maaiers</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../html/grasmaaiers.html">Grasmaaiers</a></li>
+                                <li><a class="dropdown-item" href="../html/zitmaaiers.html">Zitmaaiers</a></li>
+                                <li><a class="dropdown-item" href="../html/robotmaaiers.html">Robotmaaiers</a></li>
+                                <li><a class="dropdown-item" href="../html/bosmaaiers.html">Bosmaaiers</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-nowrap" href="#" role="button"
+                                data-bs-toggle="dropdown">Artikelen</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../html/heggenschaar.html">Heggenscharen</a></li>
+                                <li><a class="dropdown-item" href="../html/kettingzagen.html">Kettingzagen</a></li>
+                                <li><a class="dropdown-item" href="../html/bladblazers.html">Bladblazers</a></li>
+                                <li><a class="dropdown-item" href="../html/laders.html">Laders</a></li>
+                            </ul>
+                        </li>
+                        <!--<li class="nav-item">
+                            <a class="nav-link" href="../html/heggenschaar.html">Heggenscharen</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/kettingzagen.html">Kettingzagen</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/bladblazers.html">Bladblazers</a>
+                        </li>-->
+                        <li class="nav-item">
+                            <a class="nav-link text-nowrap" href="../html/service.html">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-nowrap" href="../html/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <h1 class="title"><span>Laders en laadstations 48V</span></h1>
+        <div class="cards">
+            <!--XCR48V96 lader-->
+            <div class="first card">
+                <img class="flag" src="../assets/flag48.png">
+                <img class="profile-img" src="../assets/laders/XCR48V96.png" alt="" id="test">
+                <div class="description-bk"></div>
+                <div class="logo">
+                    <img src="../assets/Cramer.png" />
+                </div>
+                <div class="description">
+                    <!--<p>test</p>-->
+                </div>
+                <div class="date">
+                    <p>XCR48V96</p>
+                </div>
+                <div class="btn">
+                    <a class="btnDet" data-toggle="modal" data-target="#laderOneModal">
+                        Details
+                    </a>
+                    <!-- Modal XCR48V96 -->
+                    <div class="modal fade" id="laderOneModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">XCR48V96</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="../assets/laders/XCR48V96.png">
+                                    <table id="customers">
+                                        <tr>
+                                            <th class="specs" colspan="4">Product specificaties</th>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Prijs</th>
+                                            <td class="tblContent">
+                                                <p>€ 149.95</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Voltage</th>
+                                            <td class="tblContent">
+                                                <p>48 V</p>
+                                            </td>
+                                        </tr>
+                                        <!--<tr class="remarks">
+                                            <td id="opmAcc" rowspan="2" colspan="5">
+                                                <p></p>
+                                            </td>
+                                        </tr>-->
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--XCR48V192 lader-->
+            <div class="first card">
+                <img class="flag" src="../assets/flag48.png">
+                <img class="profile-img" src="../assets/laders/XCR48V192.png" alt="">
+                <div class="description-bk"></div>
+                <div class="logo">
+                    <img src="../assets/Cramer.png" />
+                </div>
+                <div class="description">
+                    <!--<p>test</p>-->
+                </div>
+                <div class="date">
+                    <p>XCR48V192</p>
+                </div>
+                <div class="btn">
+                    <a class="btnDet" data-toggle="modal" data-target="#laderTwoModal">
+                        Details
+                    </a>
+                    <!-- Modal XCR48V192 -->
+                    <div class="modal fade" id="laderTwoModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">XCR48V192</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="../assets/laders/XCR48V192.png">
+                                    <table id="customers">
+                                        <tr>
+                                            <th class="specs" colspan="4">Product specificaties</th>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Prijs</th>
+                                            <td class="tblContent">
+                                                <p>€ 209.95</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Voltage</th>
+                                            <td class="tblContent">
+                                                <p>48 V</p>
+                                            </td>
+                                        </tr>
+                                        <!--<tr class="remarks">
+                                            <td id="opmAcc" rowspan="2" colspan="5">
+                                                <p></p>
+                                            </td>
+                                        </tr>-->
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--XCR48C laadstation enkel-->
+            <div class="first card">
+                <img class="flag" src="../assets/flag48.png">
+                <img class="profile-img" src="../assets/laders/XCR48C.png" alt="">
+                <div class="description-bk"></div>
+                <div class="logo">
+                    <img src="../assets/Cramer.png" />
+                </div>
+                <div class="description">
+                    <!--<p>test</p>-->
+                </div>
+                <div class="date">
+                    <p>XCR48C</p>
+                </div>
+                <div class="btn">
+                    <a class="btnDet" data-toggle="modal" data-target="#laderThreeModal">
+                        Details
+                    </a>
+                    <!-- Modal XCR48C -->
+                    <div class="modal fade" id="laderThreeModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">XCR48C</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="../assets/laders/XCR48C.png">
+                                    <table id="customers">
+                                        <tr>
+                                            <th class="specs" colspan="4">Product specificaties</th>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Prijs</th>
+                                            <td class="tblContent">
+                                                <p>€ 74.95</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Voltage</th>
+                                            <td class="tblContent">
+                                                <p>48 V</p>
+                                            </td>
+                                        </tr>
+                                        <!--<tr class="remarks">
+                                            <td id="opmAcc" rowspan="2" colspan="5">
+                                                <p></p>
+                                            </td>
+                                        </tr>-->
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--XCR48C2 laadstation dubbel-->
+            <div class="first card">
+                <img class="flag" src="../assets/flag48.png">
+                <img class="profile-img" src="../assets/laders/XCR48C2.png" alt="">
+                <div class="description-bk"></div>
+                <div class="logo">
+                    <img src="../assets/Cramer.png" />
+                </div>
+                <div class="description">
+                    <!--<p>test</p>-->
+                </div>
+                <div class="date">
+                    <p>XCR48C2</p>
+                </div>
+                <div class="btn">
+                    <a class="btnDet" data-toggle="modal" data-target="#laderFourModal">
+                        Details
+                    </a>
+                    <!-- Modal XCR48C2 -->
+                    <div class="modal fade" id="laderFourModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">XCR48C2</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="../assets/laders/XCR48C2.png">
+                                    <table id="customers">
+                                        <tr>
+                                            <th class="specs" colspan="4">Product specificaties</th>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Prijs</th>
+                                            <td class="tblContent">
+                                                <p>€ 119.95</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Voltage</th>
+                                            <td class="tblContent">
+                                                <p>48 V</p>
+                                            </td>
+                                        </tr>
+                                        <!--<tr class="remarks">
+                                            <td id="opmAcc" rowspan="2" colspan="5">
+                                                <p></p>
+                                            </td>
+                                        </tr>-->
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--XCR48SK96 lader KIT-->
+            <div class="first card">
+                <img class="flag" src="../assets/flag48.png">
+                <img class="profile-img" src="../assets/laders/XCR48SK96-KIT.png" alt="">
+                <div class="description-bk"></div>
+                <div class="logo">
+                    <img src="../assets/Cramer.png" />
+                </div>
+                <div class="description">
+                    <!--<p>test</p>-->
+                </div>
+                <div class="date">
+                    <p>XCR48SK96-KIT</p>
+                </div>
+                <div class="btn">
+                    <a class="btnDet" data-toggle="modal" data-target="#laderFiveModal">
+                        Details
+                    </a>
+                    <!-- Modal XCR48SK96-KIT -->
+                    <div class="modal fade" id="laderFiveModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">XCR48C2</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="../assets/laders/XCR48SK96-KIT.png">
+                                    <table id="customers">
+                                        <tr>
+                                            <th class="specs" colspan="4">Product specificaties</th>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Prijs</th>
+                                            <td class="tblContent">
+                                                <p>€ 179.95</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Voltage</th>
+                                            <td class="tblContent">
+                                                <p>48 V</p>
+                                            </td>
+                                        </tr>
+                                        <!--<tr class="remarks">
+                                            <td id="opmAcc" rowspan="2" colspan="5">
+                                                <p></p>
+                                            </td>
+                                        </tr>-->
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--SCR48SK192 lader KIT-->
+            <div class="first card">
+                <img class="flag" src="../assets/flag48.png">
+                <img class="profile-img" src="../assets/laders/XCR48SK192-KIT.png" alt="">
+                <div class="description-bk"></div>
+                <div class="logo">
+                    <img src="../assets/Cramer.png" />
+                </div>
+                <div class="description">
+                    <!--<p>test</p>-->
+                </div>
+                <div class="date">
+                    <p>XCR48SK192-KIT</p>
+                </div>
+                <div class="btn">
+                    <a class="btnDet" data-toggle="modal" data-target="#laderSixModal">
+                        Details
+                    </a>
+                    <!-- Modal SCR48SK192-KIT -->
+                    <div class="modal fade" id="laderSixModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">XCR48SK192-KIT</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="../assets/laders/XCR48SK192-KIT.png">
+                                    <table id="customers">
+                                        <tr>
+                                            <th class="specs" colspan="4">Product specificaties</th>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Prijs</th>
+                                            <td class="tblContent">
+                                                <p>€ 239.95</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Voltage</th>
+                                            <td class="tblContent">
+                                                <p>48 V</p>
+                                            </td>
+                                        </tr>
+                                        <!--<tr class="remarks">
+                                            <td id="opmAcc" rowspan="2" colspan="5">
+                                                <p></p>
+                                            </td>
+                                        </tr>-->
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="title"><span>Laders en laadstations 82V</span></h1>
+        <div class="cards">
+            <!--XCR82V180 lader-->
+            <div class="first card">
+                <img class="flag" src="../assets/flag82.png">
+                <img class="profile-img" src="../assets/laders/XCR82V180.png" alt="">
+                <div class="description-bk"></div>
+                <div class="logo">
+                    <img src="../assets/Cramer.png" />
+                </div>
+                <div class="description">
+                    <!--<p>test</p>-->
+                </div>
+                <div class="date">
+                    <p>XCR82V180</p>
+                </div>
+                <div class="btn">
+                    <a class="btnDet" data-toggle="modal" data-target="#laderSevenModal">
+                        Details
+                    </a>
+                    <!-- Modal SCR48SK192-KIT -->
+                    <div class="modal fade" id="laderSevenModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">XCR82V180</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="../assets/laders/XCR82V180.png">
+                                    <table id="customers">
+                                        <tr>
+                                            <th class="specs" colspan="4">Product specificaties</th>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Prijs</th>
+                                            <td class="tblContent">
+                                                <p>€ 209.95</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Voltage</th>
+                                            <td class="tblContent">
+                                                <p>82 V</p>
+                                            </td>
+                                        </tr>
+                                        <!--<tr class="remarks">
+                                            <td id="opmAcc" rowspan="2" colspan="5">
+                                                <p></p>
+                                            </td>
+                                        </tr>-->
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--XCR82V290P lader-->
+            <div class="first card">
+                <img class="flag" src="../assets/flag82.png">
+                <img class="profile-img" src="../assets/laders/XCR82V290P.png" alt="">
+                <div class="description-bk"></div>
+                <div class="logo">
+                    <img src="../assets/Cramer.png" />
+                </div>
+                <div class="description">
+                    <!--<p>test</p>-->
+                </div>
+                <div class="date">
+                    <p>XCR82V290P</p>
+                </div>
+                <div class="btn">
+                    <a class="btnDet" data-toggle="modal" data-target="#laderEightModal">
+                        Details
+                    </a>
+                    <!-- Modal XCR82V290P -->
+                    <div class="modal fade" id="laderEightModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">XCR82V290P</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="../assets/laders/XCR82V290P.png">
+                                    <table id="customers">
+                                        <tr>
+                                            <th class="specs" colspan="4">Product specificaties</th>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Prijs</th>
+                                            <td class="tblContent">
+                                                <p>€ 329.95</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Voltage</th>
+                                            <td class="tblContent">
+                                                <p>82 V</p>
+                                            </td>
+                                        </tr>
+                                        <!--<tr class="remarks">
+                                            <td id="opmAcc" rowspan="2" colspan="5">
+                                                <p></p>
+                                            </td>
+                                        </tr>-->
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--XCR82V360 lader-->
+            <div class="first card">
+                <img class="flag" src="../assets/flag82.png">
+                <img class="profile-img" src="../assets/laders/XCR82V360.png" alt="">
+                <div class="description-bk"></div>
+                <div class="logo">
+                    <img src="../assets/Cramer.png" />
+                </div>
+                <div class="description">
+                    <!--<p>test</p>-->
+                </div>
+                <div class="date">
+                    <p>XCR82V360</p>
+                </div>
+                <div class="btn">
+                    <a class="btnDet" data-toggle="modal" data-target="#laderEightModal">
+                        Details
+                    </a>
+                    <!-- Modal XCR82V290P -->
+                    <div class="modal fade" id="laderEightModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">XCR82V360</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="../assets/laders/XCR82V290P.png">
+                                    <table id="customers">
+                                        <tr>
+                                            <th class="specs" colspan="4">Product specificaties</th>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Prijs</th>
+                                            <td class="tblContent">
+                                                <p>€ 329.95</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Voltage</th>
+                                            <td class="tblContent">
+                                                <p>82 V</p>
+                                            </td>
+                                        </tr>
+                                        <!--<tr class="remarks">
+                                            <td id="opmAcc" rowspan="2" colspan="5">
+                                                <p></p>
+                                            </td>
+                                        </tr>-->
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--XCR82V580P lader-->
+            <div class="first card">
+                <img class="flag" src="../assets/flag82.png">
+                <img class="profile-img" src="../assets/laders/XCR82V580P.png" alt="">
+                <div class="description-bk"></div>
+                <div class="logo">
+                    <img src="../assets/Cramer.png" />
+                </div>
+                <div class="description">
+                    <!--<p>test</p>-->
+                </div>
+                <div class="date">
+                    <p>XCR82V580P</p>
+                </div>
+                <div class="btn">
+                    <a class="btnDet" data-toggle="modal" data-target="#laderNineModal">
+                        Details
+                    </a>
+                    <!-- Modal XCR82V580P -->
+                    <div class="modal fade" id="laderNineModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">XCR82V580P</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="../assets/laders/XCR82V580P.png">
+                                    <table id="customers">
+                                        <tr>
+                                            <th class="specs" colspan="4">Product specificaties</th>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Prijs</th>
+                                            <td class="tblContent">
+                                                <p>€ 509.95</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Voltage</th>
+                                            <td class="tblContent">
+                                                <p>82 V</p>
+                                            </td>
+                                        </tr>
+                                        <!--<tr class="remarks">
+                                            <td id="opmAcc" rowspan="2" colspan="5">
+                                                <p></p>
+                                            </td>
+                                        </tr>-->
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--XCR82V430X lader-->
+            <div class="first card">
+                <img class="flag" src="../assets/flag82.png">
+                <img class="profile-img" src="../assets/laders/XCR82V430X.png" alt="">
+                <div class="description-bk"></div>
+                <div class="logo">
+                    <img src="../assets/Cramer.png" />
+                </div>
+                <div class="description">
+                    <!--<p>test</p>-->
+                </div>
+                <div class="date">
+                    <p>XCR82V430X</p>
+                </div>
+                <div class="btn">
+                    <a class="btnDet" data-toggle="modal" data-target="#laderTenModal">
+                        Details
+                    </a>
+                    <!-- Modal XCR82V430X -->
+                    <div class="modal fade" id="laderTenModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">XCR82V430X</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="../assets/laders/XCR82V430X.png">
+                                    <table id="customers">
+                                        <tr>
+                                            <th class="specs" colspan="4">Product specificaties</th>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Prijs</th>
+                                            <td class="tblContent">
+                                                <p>€ 539.95</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Voltage</th>
+                                            <td class="tblContent">
+                                                <p>82 V</p>
+                                            </td>
+                                        </tr>
+                                        <!--<tr class="remarks">
+                                            <td id="opmAcc" rowspan="2" colspan="5">
+                                                <p></p>
+                                            </td>
+                                        </tr>-->
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--XCR82C1G laadstation enkel-->
+            <div class="first card">
+                <img class="flag" src="../assets/flag82.png">
+                <img class="profile-img" src="../assets/laders/XCR82C1G.png" alt="">
+                <div class="description-bk"></div>
+                <div class="logo">
+                    <img src="../assets/Cramer.png" />
+                </div>
+                <div class="description">
+                    <!--<p>test</p>-->
+                </div>
+                <div class="date">
+                    <p>XCR82C1G</p>
+                </div>
+                <div class="btn">
+                    <a class="btnDet" data-toggle="modal" data-target="#laderElevenModal">
+                        Details
+                    </a>
+                    <!-- Modal XCR82C1G -->
+                    <div class="modal fade" id="laderElevenModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">XCR82C1G</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="../assets/laders/XCR82C1G.png">
+                                    <table id="customers">
+                                        <tr>
+                                            <th class="specs" colspan="4">Product specificaties</th>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Prijs</th>
+                                            <td class="tblContent">
+                                                <p>€ 104.95</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Voltage</th>
+                                            <td class="tblContent">
+                                                <p>82 V</p>
+                                            </td>
+                                        </tr>
+                                        <!--<tr class="remarks">
+                                            <td id="opmAcc" rowspan="2" colspan="5">
+                                                <p></p>
+                                            </td>
+                                        </tr>-->
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--SCR82C2 laadstation dubbel-->
+            <div class="first card">
+                <img class="flag" src="../assets/flag82.png">
+                <img class="profile-img" src="../assets/laders/XCR82C2.png" alt="">
+                <div class="description-bk"></div>
+                <div class="logo">
+                    <img src="../assets/Cramer.png" />
+                </div>
+                <div class="description">
+                    <!--<p>test</p>-->
+                </div>
+                <div class="date">
+                    <p>XCR82C2</p>
+                </div>
+                <div class="btn">
+                    <a class="btnDet" data-toggle="modal" data-target="#laderTwelfModal">
+                        Details
+                    </a>
+                    <!-- Modal SCR82C2 -->
+                    <div class="modal fade" id="laderTwelfModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">XCR82C2</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="../assets/laders/XCR82C2.png">
+                                    <table id="customers">
+                                        <tr>
+                                            <th class="specs" colspan="4">Product specificaties</th>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Prijs</th>
+                                            <td class="tblContent">
+                                                <p>€ 169.95</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="tblSection">
+                                            <th class="tblTitle">Voltage</th>
+                                            <td class="tblContent">
+                                                <p>82 V</p>
+                                            </td>
+                                        </tr>
+                                        <!--<tr class="remarks">
+                                            <td id="opmAcc" rowspan="2" colspan="5">
+                                                <p></p>
+                                            </td>
+                                        </tr>-->
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </body>
+
+    </html>
+</body>
+
+</html>

@@ -99,12 +99,12 @@
                 vermogen: 'X',
                 volt: '48 V',
                 snijLengte: '51 cm',
-                pitch: 'X',
+                pitch: '30 cm',
                 handvat: 'SChouderriem',
-                gewicht: '?',
+                gewicht: '4 kg',
                 snelheid: '3200 sneden/min',
                 capaciteit: 'Slag/snijdikte: 38mm / 30mm',
-                lengte: '2.9m',
+                lengte: '2.9 m',
                 imgUrl: '../assets/Heggenscharen/XCR48PH-Snoeier.png'
             },
         };

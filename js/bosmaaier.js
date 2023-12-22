@@ -15,7 +15,8 @@ const bosmaaiers = {
         gewicht: '4.3 kg',
         snelheid: '5700 tpm',
         mes: 'X',
-        motor: 'X',
+        motor: 'Borstelloos',
+        opm: 'Opmerking: Lader en laadstation Niet meegeleverd, apart verkrijgbaar',
         imgUrl: '../assets/Bosmaaiers/82T15.png',
 
     },
@@ -31,12 +32,13 @@ const bosmaaiers = {
         gewicht: '4.5 kg',
         snelheid: '6500 tpm',
         mes: 'X',
-        motor: 'X',
+        motor: 'Borstelloos',
+        opm: 'Opmerking: Lader en laadstation Niet meegeleverd, apart verkrijgbaar',
         imgUrl: '../assets/Bosmaaiers/82T20.png',
 
     },
 
-    '3': {
+    '3': { /*2024 ???*/
         naam: 'XCR82TB10',
         brand: 'Cramer',
         content: 'Brushless motor - Loop handle- Basic Assist schouderriem. Geleverd met Tap & Go maaikop met een maaibreedte van 41 cm. 3-tandsmes (Ø 300 mm) optioneel verkrijgbaar als kit. Achteruitfunctie om gras dat rond de trimmerkop is gewikkeld los te maken. 2-staps snelheidsregelaar om het maximale toerental in te stellen aangepast aan het werk, waardoor u looptijd bespaard. Geleverd zonder batterij en lader.',
@@ -48,6 +50,7 @@ const bosmaaiers = {
         snelheid: '4500 - 5500 - 6000 - 6500 tpm',
         mes: '255 mm',
         motor: 'X',
+        opm: 'Opmerking: Lader en laadstation Niet meegeleverd, apart verkrijgbaar',
         imgUrl: '../assets/Bosmaaiers/82TB10.png',
 
     },
@@ -63,7 +66,8 @@ const bosmaaiers = {
         gewicht: '4.5 kg',
         snelheid: '6500 tpm',
         mes: '300 mm',
-        motor: 'X',
+        motor: 'Borstelloos',
+        opm: 'Opmerking: Lader en laadstation Niet meegeleverd, apart verkrijgbaar',
         imgUrl: '../assets/Bosmaaiers/82TB20.png',
 
     },
@@ -80,6 +84,7 @@ const bosmaaiers = {
         snelheid: 'Trimmerdraad 4000 - 5500 tpm / Mes 7000 - 8000 tpm 6500 tpm',
         mes: '300 mm',
         motor: 'Borstelloos',
+        opm: 'Opmerking: Lader en laadstation Niet meegeleverd, apart verkrijgbaar',
         imgUrl: '../assets/Bosmaaiers/XCR82TBX20.png',
 
     },
@@ -95,7 +100,8 @@ const bosmaaiers = {
         gewicht: '4.5 kg',
         snelheid: '6300 tpm',
         mes: 'X',
-        motor: 'X',
+        motor: 'Borstelloos',
+        opm: 'Opmerking: Lader en laadstation Niet meegeleverd, apart verkrijgbaar',
         imgUrl: '../assets/Bosmaaiers/48TB10.png',
 
     },
@@ -114,7 +120,8 @@ if (bosmaaier) {
     document.getElementById('bosmaaier-gewicht').textContent = bosmaaier.gewicht;
     document.getElementById('bosmaaier-snelheid').textContent = bosmaaier.snelheid;
     document.getElementById('bosmaaier-mes').textContent = bosmaaier.mes;
-    document.getElementById('bosmaaier-motor').textContent = bosmaaier.motor
+    document.getElementById('bosmaaier-motor').textContent = bosmaaier.motor;
+    document.getElementById('opm').textContent = bosmaaier.opm;
 
     const imageElement = document.getElementById('bosmaaier-image');
     imageElement.src = bosmaaier.imgUrl;

@@ -65,10 +65,10 @@
                 duwboom: 'X',
                 rijsnelh: 'X'
             },
-            '4': { /*CONTENT*/
+            '4': { 
                 naam: 'XCR48LM41-KIT', 
                 brand: 'Cramer', 
-                content: 'Grasmaaier - Aangedreven model - Boost functie voor een hoger toerental van het mes bij hoog gras. Dubbele accuhouder: schakelt automatisch over van 1ste naar 2de accu. 3 in 1: Opvangen / mulchen / zijuitworp. Verstelbaar ergonomisch stuur.',
+                content: 'Duwmodel - Opvouwbaar stuur. 2 in 1: Mulchen en vangen. Verstelbaar ergonomisch stuur. Batterijen en laders optioneel verkrijgbaar. Geleverd met batterij en lader.',
                 price: '\u20AC 469.95',
                 motor: 'Borstelloos',
                 volt: '48V',
@@ -80,7 +80,7 @@
                 aandr: 'Duwmodel',
                 mulch: 'Ja',
                 opm: 'Opmerking: Inclusief lader en laadstation.',
-                imgUrl: '../assets/Grasmaaiers/48LM41.png',
+                imgUrl: '../assets/Grasmaaiers/XCR48LM41-KIT.png',
                 boost: 'X',
                 duwboom: 'X',
                 rijsnelh: 'X'
