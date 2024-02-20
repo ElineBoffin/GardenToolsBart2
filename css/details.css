@@ -254,13 +254,18 @@ img .acc1 {
   background-color: whitesmoke;
 }
 
+@media only screen and (max-width: 490px) {
+
+}
+
 @media only screen and (max-width: 550px) {
-  /*#customers {
-    display: none;
-  }*/
   #customers tr {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .tblContent p {
+    white-space: normal;
   }
 
   #customers th, #customers td {
@@ -308,6 +313,7 @@ img .acc1 {
   #customers tr:hover {
     background-color: white;
   }
+  
 }
 
 @media only screen and (max-width: 520px) { /*520*/
