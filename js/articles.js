@@ -19,7 +19,7 @@
                 aandr: 'Aangedreven',
                 boost: 'Ja',
                 mulch: 'Ja',
-                opm: 'Opmerking: Lader en laadstation Niet meegeleverd, apart verkrijgbaar',
+                opm: 'Opmerking: Batterij en laadstation Niet meegeleverd, apart verkrijgbaar',
                 imgUrl: '../assets/Grasmaaiers/XCR48LM48SP(basic).png',
                 duwboom: 'X',
                 rijsnelh: 'X'
@@ -40,7 +40,7 @@
                 aandr: 'Aangedreven',
                 boost: 'Ja',
                 mulch: 'ja',
-                opm: 'Opmerking: Inclusief Lader en laadstation.',
+                opm: 'Opmerking: Inclusief batterij en laadstation.',
                 imgUrl: '../assets/Grasmaaiers/XCR48LM48SP-KIT.png',
                 duwboom: 'X',
                 rijsnelh: 'X'
@@ -59,7 +59,7 @@
                 opvang: 'Opvangzak met stofbescherming (50 liter)',
                 aandr: 'Duwmodel',
                 mulch: 'Ja',
-                opm: 'Opmerking: Lader en laadstation Niet meegeleverd, apart verkrijgbaar',
+                opm: 'Opmerking: Batterij en laadstation Niet meegeleverd, apart verkrijgbaar',
                 imgUrl: '../assets/Grasmaaiers/48LM41.png',
                 boost: 'X',
                 duwboom: 'X',
@@ -79,7 +79,7 @@
                 opvang: 'Opvangzak met stofbescherming (50 liter)',
                 aandr: 'Duwmodel',
                 mulch: 'Ja',
-                opm: 'Opmerking: Inclusief lader en laadstation.',
+                opm: 'Opmerking: Inclusief batterij en laadstation.',
                 imgUrl: '../assets/Grasmaaiers/XCR48LM41-KIT.png',
                 boost: 'X',
                 duwboom: 'X',
@@ -102,7 +102,7 @@
                 imgUrl: '../assets/Grasmaaiers/82LM46SX.png',
                 duwboom: 'Instelbaar in 3 standen',
                 rijsnelh: '2,16 km/u - 5,4 km/u',
-                opm: 'Opmerking: Lader en laadstation Niet meegeleverd, apart verkrijgbaar',
+                opm: 'Opmerking: Batterij en laadstation Niet meegeleverd, apart verkrijgbaar',
                 boost: 'X'
             },
             '6': { 
@@ -122,7 +122,7 @@
                 imgUrl: '../assets/Grasmaaiers/82LM51SX.png',
                 duwboom: 'Instelbaar in 3 standen',
                 rijsnelh: '2,16 km/u - 5,4 km/u',
-                opm: 'Opmerking: Lader en laadstation Niet meegeleverd, apart verkrijgbaar',
+                opm: 'Opmerking: Batterij en laadstation Niet meegeleverd, apart verkrijgbaar',
                 boost: 'X',
                 mulch: 'X'
             },
@@ -143,7 +143,7 @@
                 duwboom: 'Instelbaar in 3 standen',
                 rijsnelh: '2,16 km/u - 5,4 km/u',
                 imgUrl: '../assets/Grasmaaiers/82LM61SX.png',
-                opm: 'Opmerking: Lader en laadstation Niet meegeleverd, apart verkrijgbaar',
+                opm: 'Opmerking: Batterij en laadstation Niet meegeleverd, apart verkrijgbaar',
             },
             /*'7': { 
                 naam: 'XCR48LM41-KIT', 
