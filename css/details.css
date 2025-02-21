@@ -328,7 +328,7 @@ img .acc1 {
   .profile-img-heg {
     width: 160px;
     height: 100px;
-    /*margin-top: 25px;*/
+    margin-top: -10px;
     position: absolute;
     left: 20px;
     /*position: absolute;
